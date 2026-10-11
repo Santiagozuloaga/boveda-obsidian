@@ -12,21 +12,19 @@ status: activo
 > recordar esta regla primero.
 
 ## Adoptadas
-- **Freebuff** — coding agent gratis (100 Freebucks/día, ads). Adoptar.
+- **Freebuff** — ADOPTADA 2026-10-11 (npm global instalado; falta login GitHub una vez, lo hace Admin). Reemplazo Qoder Pro vencido.
 - **Qwen (Ollama local)** — modelos propios con API keys; Qoder sigue útil
   con keys propias (Quest/RepoWiki se pierden al vencer Pro, suplir con
   `_CONTEXTO_IA.md` + prompts planificadores).
 
 ## A evaluar (una por vez, con criterio)
-- **MausBot/OpenMausBot** — open-source, BYOAI, desktop Linux en nube.
-  Candidata natural si pasa la excepción (liviana + excelente).
+- **MausBot/OpenMausBot** — EN EVALUACIÓN (verificar claims primero; únicos conectores Notion/Todoist).
 
 ## Descartadas por ahora
 - **Nebula** — de pago ($25/mes), sin memoria persistente profunda.
-- **Amoeba IDE** — early access, exige base (Claude Code/Codex), equipo.
+- **Amoeba IDE** — AHORA NO (equipos; se trabaja solo).
 - **Devin** — corporativo, costoso, barreras de acceso.
-- **Rebirth (Roblox)** — solo como side quest acotado (1 juego/2 meses),
-  pendiente de decisión en el mapa de frentes.
+- **Rebirth (Roblox)** — FRENTE APARCADO 2026-10-11 (Player desinstalado, ~5 GB liberados; Studio 63 MB queda).
 
 ## Recreativas (fuera del sistema)
 - **Google Playground / Genie** — juego casual, no herramienta de trabajo.
@@ -47,6 +45,6 @@ status: activo
 - Navegador: Chrome (titular diario; limpieza de caché interna, no desinstalar).
 
 ## En revisión de peso (veredicto pendiente de Admin 2026-10-11)
-- Docker Desktop (servicio corriendo, uso sin identificar) — NO tocar hasta confirmar.
+- Docker Desktop — FUERA 2026-10-11 (sin uso: sin distro de datos, daemon abajo; desinstalado vía winget + WSL unregister).
 - JetBrains PyCharm (redundante con VS Code) + IntelliJ (solo si abre app-claw).
 - Roblox Player ~5 GB (caché/versiones) — ligado a decisión del frente Roblox.
