@@ -50,4 +50,3 @@ status: activo
 - Docker Desktop (servicio corriendo, uso sin identificar) — NO tocar hasta confirmar.
 - JetBrains PyCharm (redundante con VS Code) + IntelliJ (solo si abre app-claw).
 - Roblox Player ~5 GB (caché/versiones) — ligado a decisión del frente Roblox.
- · Hermes · Ollama · VS Code · Obsidian · Notion · Todoist.
