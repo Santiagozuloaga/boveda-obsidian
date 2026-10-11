@@ -37,9 +37,10 @@ Los 41 están listados en `hashes/recup_raros.txt` y ordenados por lotes en `has
 ## 6. Debilidad actual
 **`git init` en la bóveda: EJECUTADO HOY (2026-10-06).** El snapshot de Notion era un JSON suelto. Con control de versiones, un error de escritura se puede deshacer. **Riesgo reducido.**
 
-## 7. Estado de sincronización (actualizado 2026-10-11)
-- SyncTrayzor instalado, no corriendo al momento de la auditoría.
-- Pruebas A–D EJECUTADAS Y SUPERADAS en fase anterior (✅✅✅✅); 0 conflictos entonces. Estado actual NO VERIFICABLE con app apagada — no se re-ejecutan probes sin respaldo + ambos dispositivos.
+## 7. Estado de sincronización (actualizado 2026-10-11, re-probes con móvil V2202)
+- SyncTrayzor encendido para la prueba; V2202 conectado.
+- Re-probes: A✅ PC→móvil (100%), B✅ edición móvil→PC, C✅ creado en móvil→PC, D✅ conflicto controlado (versión móvil ganó, versión PC preservada en .sync-conflict, 0 pérdidas, 0 errores).
+- Probes de prueba eliminados 2026-10-11. `Sin título.md` del móvil queda (archivo de Admin).
 
 ## 8. Pruebas de sincronización (pendientes)
 TEST A: PC → crear/modificar nota → móvil recibe.
