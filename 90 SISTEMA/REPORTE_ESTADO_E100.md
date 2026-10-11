@@ -20,8 +20,8 @@ nada de esto es de un informe viejo.
 ## Todoist ⚠️ Sano pero sin disciplinar (decisión tuya)
 
 - 5 proyectos (Inbox, Universidad, Alemán, Estudio, Hábitos).
-- 11 tareas, todas P4 en Universidad, 1 fecha real, 0 recurrencias.
-- Pendiente: subir prioridades P4 → P2/P3 según tu criterio por tarea.
+- 11 tareas abiertas en Universidad, 10 sin fecha, 0 recurrencias (API Todoist 2026-10-11, CORREGIDO Y VERIFICADO: P1×2/P2×5/P3×4 — los informes "todas P1" (27/09) y "todas P4" (06/10) quedan HISTÓRICOS).
+- Pendiente: fechas y mapeo MC1/MC2/MC3 (decisión tuya).
   No lo invento porque solo tú sabes qué urge.
 
 ## Sync (móvil) ⏸️ En espera

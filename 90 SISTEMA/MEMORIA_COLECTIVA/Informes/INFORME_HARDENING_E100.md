@@ -32,7 +32,7 @@ Queries sanas; vacíos por ausencia de datos. Proyectos Nexus/Telmo ahora califi
 Ver §4-F1. Probar es-ES en vivo (humano).
 
 ## 11. Plugins
-15 ACTIVOS / retirados periodic+kanban (carpetas intactas = rollback) / Homepage conservado / resto con uso real. Custom Frames sin configurar (OPCIONAL, sin uso). Meld sin archivos cifrados (política: agentes leen todo; cifrar solo personal en Diario si se necesita).
+21 ACTIVOS verificados 2026-10-11 (community-plugins.json) incl. periodic-notes ACTIVO (el "retirado" queda HISTÓRICO) / kanban retirado ✅ (carpeta ausente, rollback disponible) / Homepage conservado / resto con uso real. Custom Frames CONFIGURADO con 3 marcos (AutoCLAW Z.ai, EGG-NETWORK, Grafana localhost:3000 — el "sin configurar" queda HISTÓRICO). Meld sin archivos cifrados (política: agentes leen todo; cifrar solo personal en Diario si se necesita).
 
 ## 12. MOCs
 7 verificados como índices (1-14 links, sin copias). MOC_FUENTES +1 línea (paper huérfano indexado).

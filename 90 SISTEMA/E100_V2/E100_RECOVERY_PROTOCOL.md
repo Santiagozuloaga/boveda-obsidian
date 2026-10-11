@@ -37,11 +37,9 @@ Los 41 están listados en `hashes/recup_raros.txt` y ordenados por lotes en `has
 ## 6. Debilidad actual
 **`git init` en la bóveda: EJECUTADO HOY (2026-10-06).** El snapshot de Notion era un JSON suelto. Con control de versiones, un error de escritura se puede deshacer. **Riesgo reducido.**
 
-## 7. Estado de sincronización
-- SyncTrayzor 2.2.0 instalado, no corriendo.
-- Syncthing config con 4 carpetas (vault `mente-maestra-e100`) y 2 dispositivos (PC + V2202).
-- Pruebas A–D pendientes con móvil.
-- SYNC ≠ ACTIVE.
+## 7. Estado de sincronización (actualizado 2026-10-11)
+- SyncTrayzor instalado, no corriendo al momento de la auditoría.
+- Pruebas A–D EJECUTADAS Y SUPERADAS en fase anterior (✅✅✅✅); 0 conflictos entonces. Estado actual NO VERIFICABLE con app apagada — no se re-ejecutan probes sin respaldo + ambos dispositivos.
 
 ## 8. Pruebas de sincronización (pendientes)
 TEST A: PC → crear/modificar nota → móvil recibe.
@@ -55,5 +53,12 @@ TEST D: Provocar conflicto controlado → verificar resolución/recuperación.
 - Primer commit: estado post-recuperación, sin secretos.
 - Rama `main` protegida, `develop` para trabajo en curso.
 
-## 9. Recuperación desde Drive
+## 10. Resultado verificación staging (2026-10-11, CORREGIDO Y VERIFICADO)
+- `C:\Temp\STAGING_20261004\` existe pero está VACÍO salvo subcarpeta `CERTIFICACION` (0 archivos).
+- Inventarios `hashes/recup_raros.txt` y `hashes/recup_indice_lotes.md`: NO LOCALIZADOS en disco.
+- Único resto: `imports\cuarentena_txtmd_20261004\RESTITUCION_RESULTADOS.csv` (6 archivos COPIADO_OK).
+- Los 41 pendientes: NO VERIFICABLES — no se recrean a partir de nombres. La bóveda actual está sana y operativa; los 65 descorruptos se evidencian materializados.
+- BLOQUEO REGISTRADO: no borrar nada más de staging; si aparece un ZIP crudo de respaldo, inventariarlo antes de tocarlo.
+
+## 11. Recuperación desde Drive (contingencia vigente)
 Si falla todo: descargar `Mente Maestra E-100(1).zip` → descomprimir → `git init` → restaurar.
