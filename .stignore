@@ -26,3 +26,9 @@ Desktop.ini
 
 // Plugins: lista por dispositivo (el movil la vaciaba y apagaba plugins en PC)
 .obsidian/community-plugins.json
+
+// Estado UI por dispositivo (el movil lo sobrescribia: conflictos 2026-10-11)
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
