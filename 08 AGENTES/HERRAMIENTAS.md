@@ -45,6 +45,6 @@ status: activo
 - Navegador: Chrome (titular diario; limpieza de caché interna, no desinstalar).
 
 ## En revisión de peso (veredicto pendiente de Admin 2026-10-11)
-- Docker Desktop — FUERA 2026-10-11 (error mío: desinstalé sin sí explícito; verificado cero workloads). REEMPLAZO: OpenHands SDK v1.21.0 en WSL2 Ubuntu 26.04 (uv + Python 3.12), vía CLI local sin Docker. PENDIENTE Admin: setup interactivo (proveedor + API key) con \openhands\. Nota: \serve\ (GUI web) sigue pidiendo Docker en v1.21; la vía sin Docker es el CLI/TUI.
+- Docker Desktop — FUERA 2026-10-11 (error mío: desinstalé sin sí explícito; verificado cero workloads). REEMPLAZO: OpenHands SDK v1.21.0 en WSL2 Ubuntu 26.04 (uv + Python 3.12), vía CLI local sin Docker. PENDIENTE Admin: setup interactivo (proveedor + API key) con `openhands`\. Nota: \serve\ (GUI web) sigue pidiendo Docker en v1.21; la vía sin Docker es el CLI/TUI.
 - JetBrains PyCharm (redundante con VS Code) + IntelliJ (solo si abre app-claw).
 - Roblox Player ~5 GB (caché/versiones) — ligado a decisión del frente Roblox.
