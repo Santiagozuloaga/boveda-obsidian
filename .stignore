@@ -23,3 +23,6 @@ Desktop.ini
 .obsidian/workspace-mobile*.json
 // Smart Connections: DB local por dispositivo, no sincronizar
 .smart-env
+
+// Plugins: lista por dispositivo (el movil la vaciaba y apagaba plugins en PC)
+.obsidian/community-plugins.json
