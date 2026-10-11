@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"gv","type":"group","backgroundStyle":"cover","x":0,"y":0,"width":360,"height":1040,"label":"🔴 VENCIDO","background":"#0b0b11"},
+		{"id":"gh","type":"group","backgroundStyle":"cover","x":400,"y":0,"width":360,"height":600,"label":"🟡 HOY + FUTURO","background":"#0b0b11"},
+		{"id":"gs","type":"group","backgroundStyle":"cover","x":800,"y":0,"width":360,"height":420,"label":"⚪ SIN FECHA","background":"#0b0b11"},
+		{"id":"gl","type":"group","backgroundStyle":"cover","x":1180,"y":0,"width":360,"height":360,"label":"ℹ️ LEYENDA","background":"#0b0b11"},
+		{"id":"n1","type":"text","text":"2026-09-20\n- [ ]  1   2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":40,"width":320,"height":110},
+		{"id":"n2","type":"text","text":"2026-09-20\n- [ ] 2  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":165,"width":320,"height":110},
+		{"id":"n3","type":"text","text":"2026-09-20\n- [ ] 3  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":290,"width":320,"height":110},
+		{"id":"n4","type":"text","text":"2026-09-20\n- [ ] Active Recall 1 toggle/gallery (ver PLANTILLA_Libro)  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":415,"width":320,"height":110},
+		{"id":"n5","type":"text","text":"2026-09-20\n- [ ] Bloque profundo 50m (materia: ___)  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":540,"width":320,"height":110},
+		{"id":"n6","type":"text","text":"2026-09-20\n- [ ] Inbox 00_INBOX_TEMPORAL → destilar 1 nota  2026-09-20  every day\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":665,"width":320,"height":110},
+		{"id":"n7","type":"text","text":"2026-09-20\n- [ ] MCs del día: ___  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":790,"width":320,"height":110},
+		{"id":"n8","type":"text","text":"2026-09-20\n- [ ] Revisar [[07_TABLERO/HOY]] + Todoist  2026-09-20\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-20.md]]","x":20,"y":915,"width":320,"height":110},
+		{"id":"n9","type":"text","text":"2026-09-24\n- [ ]  1 <% tp.file.cursor(1) %>  2026-09-24\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-23.md]]","x":420,"y":40,"width":320,"height":110},
+		{"id":"n10","type":"text","text":"2026-09-24\n- [ ] 2  2026-09-24\n[[01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-09-23.md]]","x":420,"y":165,"width":320,"height":110},
+		{"id":"n11","type":"text","text":"2026-09-24\n- [ ] Revisar PIPELINE entregables   2026-09-24\n[[90 SISTEMA/MEMORIA_COLECTIVA/Informes/REPORTE_TOTAL_E100_2026-09-20.md]]","x":420,"y":290,"width":320,"height":110},
+		{"id":"n12","type":"text","text":"2026-09-28\n- [ ] Transmutar cuaderno a datos  every week  2026-09-28\n[[90 SISTEMA/MEMORIA_COLECTIVA/Informes/REPORTE_TOTAL_E100_2026-09-20.md]]","x":420,"y":415,"width":320,"height":110},
+		{"id":"n13","type":"text","text":"Total sin fecha: 212\nTop:\n• REPORTE_TOTAL_E100_2026-09-20. (44)\n• CHECKLIST_PENDIENTES_Admin.md (33)\n• REPORTE_COMPLETO_E100_2026-09- (29)\n• 2026-09-20.md (12)\n• 2026-09-22.md (12)\n\nVer todo: Control Panel","x":820,"y":40,"width":320,"height":260},
+		{"id":"n14","type":"text","text":"Snapshot 2026-09-24.\nFusión A+B+C: lista agrupada en visual.\nNO auto-actualiza: arrastra tarjetas o pide regenerar.\nFuente viva: Control Panel → Deuda.","x":1200,"y":40,"width":320,"height":200}
+	],
+	"edges":[]
+}

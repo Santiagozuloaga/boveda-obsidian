@@ -1,0 +1,11 @@
+{
+  "updateInternalLinks": true,
+  "livePreview": true,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "00_INBOX_TEMPORAL/adjuntos",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "openBehavior": "file:HOME.md"
+}

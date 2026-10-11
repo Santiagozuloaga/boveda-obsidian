@@ -1,0 +1,20 @@
+﻿{
+    "autoSuggestMaxItems":  20,
+    "recurrenceOnNextLine":  false,
+    "globalQuery":  "",
+    "provideAccessKeys":  true,
+    "globalFilter":  "",
+    "removeGlobalFilter":  false,
+    "autoSuggestMinMatch":  0,
+    "filenameAsDateFolders":  [
+
+                              ],
+    "removeScheduledDateOnRecurrence":  false,
+    "setDoneDate":  true,
+    "taskFormat":  "tasksPluginEmoji",
+    "setCreatedDate":  true,
+    "setEditedDate":  false,
+    "filenameAsScheduledDateFormat":  "",
+    "autoSuggestInEditor":  true,
+    "useFilenameAsScheduledDate":  false
+}

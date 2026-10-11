@@ -1,0 +1,9 @@
+{
+  "cssTheme": "EvilRed",
+  "accentColor": "#080808",
+  "enabledCssSnippets": [
+    "dashboard",
+    "eggman-balance"
+  ],
+  "nativeMenus": true
+}

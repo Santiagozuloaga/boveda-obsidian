@@ -1,0 +1,2 @@
+# PIPELINE (1 filas)
+## Tipo= | Materia=[] | Estado=ENTREGADO | Nota Obtenida=4.5 | Nota Ponderada={'type': 'number', 'number': 0.9} | Fecha Límite= | Peso %=0.2 | Entregable=Parcial de Cálculo (prueba)

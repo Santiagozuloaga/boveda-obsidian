@@ -1,0 +1,274 @@
+/* 🥚 EGGMAN BALANCE v2 — fondo EvilRed, oro/cromo, hueso/platino, blanco puro.
+   Fuente: Montserrat (sans geométrica, Google Fonts + fallback sistema).
+   Actívalo en: Ajustes → Apariencia → Fragmentos CSS → eggman-balance */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+:root {
+  --egg-gold: #f0b429;
+  --egg-gold-deep: #c9962e;
+  --egg-chrome: linear-gradient(180deg, #ffffff 0%, #cfd4da 55%, #9aa1ab 100%);
+  --egg-bone: #ece7dd;
+  --egg-platinum: #c9cdd4;
+  --egg-white: #fafafa;
+  --egg-red: #ff3b3b;
+  --font-text-theme: 'Montserrat', 'Segoe UI', system-ui, sans-serif;
+  --font-interface-theme: 'Montserrat', 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', 'Segoe UI', system-ui, sans-serif;
+}
+
+.markdown-preview-view,
+.markdown-source-view {
+  color: var(--egg-white);
+}
+
+/* H1: AMARILLO ORO EGGMAN (mi elección: #f0b429) */
+.markdown-preview-view h1,
+.HyperMD-header-1 {
+  color: #f0b429 !important;
+  -webkit-text-fill-color: #f0b429 !important;
+  background: none !important;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.6));
+}
+
+/* H2: blanco hueso */
+.markdown-preview-view h2,
+.HyperMD-header-2 {
+  color: var(--egg-bone) !important;
+  font-weight: 700;
+}
+
+/* H3+: gris platino */
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.HyperMD-header-3,
+.HyperMD-header-4 {
+  color: var(--egg-platinum) !important;
+  font-weight: 600;
+}
+
+/* Links: rojo vivo */
+.markdown-preview-view a,
+.cm-hmd-internal-link {
+  color: var(--egg-red) !important;
+}
+
+/* Negritas: blanco puro extra */
+.markdown-preview-view strong,
+.cm-strong {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* Código inline: azul eléctrico SIN fondo, links internos igual */
+.markdown-preview-view code:not(pre code),
+.cm-inline-code {
+  color: #6cb2ff !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 1px !important;
+}
+
+/* Citas: borde oro */
+.markdown-preview-view blockquote {
+  border-left-color: var(--egg-gold) !important;
+  color: var(--egg-bone);
+}
+
+/* CALLOUTS: nada rojo adentro — texto hueso, título oro, borde ámbar */
+.markdown-preview-view .callout {
+  border-left-color: var(--egg-gold) !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.markdown-preview-view .callout-content,
+.markdown-preview-view .callout-content p,
+.markdown-preview-view .callout-content li,
+.markdown-preview-view .callout-content a {
+  color: var(--egg-bone) !important;
+}
+.markdown-preview-view .callout-title,
+.markdown-preview-view .callout-title-inner {
+  color: var(--egg-gold) !important;
+}
+.markdown-preview-view .callout-icon {
+  color: var(--egg-gold) !important;
+}
+
+/* Checks: verde al completar */
+input[type="checkbox"]:checked {
+  accent-color: #3ddc84 !important;
+}
+
+/* Tablas: cabecera oro, filas hueso */
+.markdown-preview-view th {
+  color: var(--egg-gold) !important;
+}
+
+/* TABLAS legibles: bordes sutiles, cebra, primera columna hueso (nunca roja) */
+.markdown-preview-view table {
+  border-collapse: collapse !important;
+  border: 1px solid #6b2a2a !important;
+}
+.markdown-preview-view th {
+  background-color: rgba(242, 193, 78, 0.12) !important;
+  border: 1px solid #6b2a2a !important;
+  padding: 6px 10px !important;
+}
+.markdown-preview-view td {
+  color: var(--egg-bone) !important;
+  border: 1px solid #4a1f1f !important;
+  padding: 6px 10px !important;
+}
+.markdown-preview-view td:first-child {
+  color: var(--egg-platinum) !important;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.markdown-preview-view tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+.markdown-preview-view td code {
+  font-size: 0.85em !important;
+  word-break: break-word;
+}
+
+/* ===== LIVE PREVIEW (vista edición): espejo de todo ===== */
+.markdown-source-view {
+  color: var(--egg-white);
+}
+.markdown-source-view .cm-header-1,
+.markdown-source-view .HyperMD-header-1 {
+  color: #f0b429 !important;
+  -webkit-text-fill-color: #f0b429 !important;
+  background: none !important;
+  font-weight: 800;
+}
+.markdown-source-view .cm-header-2,
+.markdown-source-view .HyperMD-header-2 {
+  color: var(--egg-bone) !important;
+}
+.markdown-source-view .cm-header-3,
+.markdown-source-view .cm-header-4,
+.markdown-source-view .HyperMD-header-3,
+.markdown-source-view .HyperMD-header-4 {
+  color: var(--egg-platinum) !important;
+}
+.markdown-source-view table {
+  border-collapse: collapse !important;
+  border: 1px solid #6b2a2a !important;
+}
+.markdown-source-view th {
+  color: var(--egg-gold) !important;
+  background-color: rgba(242, 193, 78, 0.12) !important;
+  border: 1px solid #6b2a2a !important;
+  padding: 6px 10px !important;
+}
+.markdown-source-view td {
+  color: var(--egg-bone) !important;
+  border: 1px solid #4a1f1f !important;
+  padding: 6px 10px !important;
+}
+.markdown-source-view td:first-child {
+  color: var(--egg-platinum) !important;
+  font-weight: 600;
+}
+.markdown-source-view tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+.markdown-source-view .callout {
+  border-left-color: var(--egg-gold) !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.markdown-source-view .callout-content,
+.markdown-source-view .callout-content p,
+.markdown-source-view .callout-content li {
+  color: var(--egg-bone) !important;
+}
+.markdown-source-view .callout-title {
+  color: var(--egg-gold) !important;
+}
+
+/* ===== FONDO negro ala de cuervo (negro profundo, brillo azulado) ===== */
+body,
+.workspace,
+.workspace-split.mod-root,
+.workspace-tabs,
+.workspace-tab-container,
+.view-content,
+.markdown-preview-view,
+.markdown-source-view {
+  background-color: #0b0b11 !important;
+}
+.workspace-ribbon,
+.workspace-ribbon.mod-left,
+.side-dock-ribbon,
+.nav-folder,
+.workspace-leaf-resize-handle {
+  background-color: #08080d !important;
+}
+.workspace-tab-header-container,
+.workspace-tab-header-container-inner {
+  background-color: #08080d !important;
+}
+
+/* ===== BLOQUES DE CÓDIGO (fenced): fondo oscuro neutro, texto hueso ===== */
+.markdown-preview-view pre,
+.markdown-source-view pre {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid #4a1f1f !important;
+}
+.markdown-preview-view pre code,
+.markdown-source-view pre code {
+  color: var(--egg-bone) !important;
+  background-color: transparent !important;
+}
+
+/* ===== PROPIEDADES (frontmatter): borde sutil, sin rojo ===== */
+.markdown-preview-view .metadata-container,
+.markdown-source-view .metadata-container {
+  border: 1px solid #4a1f1f !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.markdown-preview-view .metadata-property,
+.markdown-source-view .metadata-property {
+  color: var(--egg-bone) !important;
+}
+
+/* ===== KANBAN: fondo ala de cuervo (tapa el rojo del tema) ===== */
+.kanban-plugin__board,
+.kanban-plugin__lane,
+div.kanban-plugin__lane-wrapper {
+  background-color: #0b0b11 !important;
+}
+.kanban-plugin__item,
+div.kanban-plugin__item,
+.kanban-plugin__item-content-wrapper,
+div.kanban-plugin__item-content-wrapper,
+li.kanban-plugin__item {
+  background: #0b0b11 !important;
+  background-color: #0b0b11 !important;
+  border: 1.5px solid #8a5e1a !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4) !important;
+}
+.kanban-plugin__item-title,
+.kanban-plugin__item-title-wrapper,
+div.kanban-plugin__item-title,
+div.kanban-plugin__item-title-wrapper {
+  color: var(--egg-bone) !important;
+  background: #0b0b11 !important;
+  background-color: #0b0b11 !important;
+}
+.kanban-plugin__lane-title,
+div.kanban-plugin__lane-title {
+  color: var(--egg-gold) !important;
+}
+.kanban-plugin__item a {
+  color: #6cb2ff !important;
+}

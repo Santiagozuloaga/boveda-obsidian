@@ -1,0 +1,74 @@
+/* DASHBOARD E-100 v1 — vaultorial + obsibrain (3 bloques) + niámoš KPIs
+   Actívalo en: Ajustes → Apariencia → Fragmentos CSS → dashboard
+   Requiere: cssclasses: [dashboard] en HOME.md / Control Panel
+*/
+
+/* Contenedor dashboard: grid 3 columnas en lectura, stack en móvil/edición */
+.dashboard .markdown-preview-view {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+/* Banner: si cssclasses incluye banner, la primera imagen se vuelve hero */
+.dashboard.banner .markdown-preview-view h1:first-of-type {
+  margin-top: 0.3em;
+}
+
+/* Callouts como tarjetas */
+.dashboard .callout {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35) !important;
+}
+
+/* 3 bloques vaultorial — cada H2 se vuelve tarjeta si dashboard activo */
+.dashboard .markdown-preview-view h2 {
+  border: 1px solid rgba(242,193,78,0.18) !important;
+  background: rgba(255,255,255,0.02) !important;
+  border-radius: 10px;
+  padding: 10px 14px !important;
+  margin-top: 18px !important;
+}
+
+/* Grilla KPI (niámoš style) — usa callout tip con tabla dentro */
+.dashboard .callout[data-callout="tip"] .callout-content table {
+  width: 100%;
+}
+
+/* Dataview tables compactas en dashboard */
+.dashboard .dataview.table-view-table {
+  font-size: 0.88em;
+}
+.dashboard .dataview th {
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Tasks plugin en dashboard: más denso */
+.dashboard .task-list-item {
+  margin: 2px 0 !important;
+}
+.dashboard .contains-task-list {
+  padding-left: 0 !important;
+}
+
+/* Force reading view helper: oculta edit cues cuando cssclasses dashboard */
+.dashboard .markdown-source-view {
+  --editor-font-size: 15px;
+}
+
+/* Responsive: < 900px colapsa a 1 col */
+@media (max-width: 900px) {
+  .dashboard .markdown-preview-view h2 {
+    padding: 8px 10px !important;
+  }
+}
+
+/* Banner image: si pones ![banner] primera línea, que ocupe ancho */
+.dashboard .markdown-preview-view p:first-of-type img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(242,193,78,0.25);
+}

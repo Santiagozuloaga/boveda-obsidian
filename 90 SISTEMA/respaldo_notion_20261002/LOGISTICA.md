@@ -1,0 +1,2 @@
+# LOGISTICA (1 filas)
+## Ingreso=None | Progreso Sperrkonto=None | Barra de Progreso={'type': 'string', 'string': '█████░░░░░ 50%'} | Gastado=1200 | Ahorro Acumulado=5604 | Meta (11.208€)=None | Restante={'type': 'number', 'number': 3800} | Presupuesto=5000 | Notas= | Gastos Universitarios=None | Mes=Septiembre 2026

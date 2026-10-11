@@ -1,0 +1,13 @@
+# Sync/machine-local (no versionar)
+.stfolder/
+.stversions/
+.trash/
+.smart-env/
+
+# Secretos (API keys en configs de plugins)
+.obsidian/plugins/obsidian-local-rest-api/data.json
+
+# Basura OS
+.DS_Store
+Thumbs.db
+*.tmp

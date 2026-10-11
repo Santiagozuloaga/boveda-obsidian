@@ -1,0 +1,669 @@
+- [callout] [ ACCESO RESTRINGIDO: REPORTE DE MICRO-CUOTAS ]
+  - [table] 
+    - [table_row] 
+  - [to_do] RITUAL DE SUEÑO (>7H)
+  - [to_do] PROTOCOLO NOFAP
+  - [to_do] DIETA DE COMBUSTIBLE
+- [divider] 
+- [heading_2] 🛡️ MANDO
+- [callout] [ NÚCLEO EMERL: BITÁCORA ESTOICA ]
+  - [quote] "Tienes poder sobre tu mente, no sobre los acontecimientos externos. Date cuenta de esto y encontrarás la fuerza”
+  - [heading_3] REFLEXIÓN DE RESILIENCIA
+  - [to_do] ¿Es esto algo que puedo controlar?
+(Si la respuesta es NO, se ignora mediante Silencio Estratégico).
+  - [to_do] Acción correctiva aplicada.(¿Qué va a hacer el "Santi 2.0" al respecto?).
+- [divider] 
+- [heading_2] 📅 EJECUCIÓN
+- [column_list] 
+  - [column] 
+    - [child_database] 
+  - [column] 
+    - [child_database] 
+  - [column] 
+    - [child_database] 
+- [divider] 
+- [paragraph] 
+- [heading_2] 🗄 ARCHIVO
+- [child_database] 
+- [paragraph] 
+- [divider] 
+- [heading_2] 🎓 UNIVERSIDAD
+- [column_list] 
+  - [column] 
+    - [heading_3] Estudio
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+  - [column] 
+    - [heading_3] Sistema
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+  - [column] 
+    - [toggle] 📦 Sistema (uso raro)
+      - [child_page] 
+        - [heading_1] 🧪 INFORME DE LABORATORIO
+        - [heading_2] Materia: [ ] | Fecha: [ ] | Grupo: [ ]
+        - [heading_3] 1. Hipótesis
+        - [paragraph] [¿Qué se espera observar?]
+        - [heading_3] 2. Metodología
+        - [paragraph] [Procedimiento paso a paso]
+        - [heading_3] 3. Datos
+        - [paragraph] [Tabla de mediciones o código]
+        - [heading_3] 4. Conclusión
+        - [paragraph] [Análisis y aprendizaje]
+      - [child_page] 
+        - [paragraph] El sistema anterior era autocomplaciente: registraba heridas y no servia. Nuevo protocolo:
+        - [paragraph] 1. Objeto: solo distracciones y fugas (digitales, mentales, de entorno). Nada de historial emocional.
+        - [paragraph] 2. Formato por fila: Distraccion (1 linea) -> Vector/fuente -> Contramedida concreta -> Blindaje cuando se aplico.
+        - [paragraph] 3. Puerta estoica: ¿depende de mi? NO -> silencio y descarte. SI -> contramedida con fecha.
+        - [paragraph] 4. Regla de oro: fila sin contramedida = fila que no debio existir. Prohibida la lastima.
+        - [paragraph] El Log no se relee para sentir; se consulta para blindar.
+- [child_database] 
+- [paragraph] 
+- [paragraph] 
+- [child_page] 
+  - [paragraph] Pega aquí el Módulo Tails que encontraste (Revisión de S.O.P., Visión de Largo Alcance y requisitos de Visa).
+  - [link_to_page] 
+  - [child_page] 
+    - [bulleted_list_item] Acción: Arrastra allí todas las plantillas que descargaste de la IA de Notion.
+    - [bulleted_list_item] Extracción: Si ves una tabla de tareas o un widget de reloj, muévelo a tu página principal.
+    - [bulleted_list_item] Eliminación: Borra el resto. El Imperio no guarda chatarra.
+    - [paragraph] 
+  - [child_page] 
+    - [bulleted_list_item] Estructura: Crea una sub-página con el icono de candado.
+    - [bulleted_list_item] Contenido: Una base de datos tipo Galería (/gallery view).
+    - [bulleted_list_item] Uso: Sube capturas de pantalla de chats, audios o fotos de situaciones que intenten culparte de algo injustamente. Es tu respaldo legal y mental para cuando intenten manipular tu r
+    - [child_database] 
+- [toggle] 🗑️ RUTINA DE APAGADO
+  - [to_do] Limpiar descargas
+  - [to_do] Revisar tareas
+  - [to_do] Cerrar pestañas innecesarias
+  - [to_do] Revisar si se hizo la auditoria ética y nocturna en Obsidian
+  - [to_do] Revisar si están actualizados los Obsidian(pc y celular)
+- [callout] Si el Factor de Estabilidad cae por debajo del 80%, se activan:
+🔋 Restricción digital: 48 horas sin entretenimiento.
+🎯 Revisión S.O.P: Análisis de fallas obligatorio.
+🛡️ Cifrado Sh
+- [paragraph] Plantillas del otro espacio: 9 BD revisadas, ya cubiertas por EGG-NETWORK.
+- [numbered_list_item] Cero Suposiciones: Si una tarea no tiene fecha o plataforma asignada, pregunta.
+- [numbered_list_item] Calidad de Entrega: Antes de marcar 'Listo', verifica normas (APA, formato, nombres).
+- [paragraph] 
+- [numbered_list_item] Actualización: Si terminas tu parte, cambia estado a 'Revisión'.
+- [child_database] 
+- [divider] 
+- [heading_1] MEJORA E-100 — Replica Gratis
+- [callout] Diseno Student Life OS / Productivity Vault / Finance Tracker / RPG / Life Planner, 100% nativo. Formulas ya viven en sus DBs. Detalle en reporte.
+- [toggle] Abrir detalle: Quick-Add + Active Recall
+  - [paragraph] Entregable -> PIPELINE | Evidencia -> BOVEDA | Shard -> LOG | Habito -> MONITOR | Finanzas -> LOGISTICA | Flashcard -> Zettel Cards
+  - [toggle] Forma 1: Toggle oculta respuesta
+    - [paragraph] Escribe pregunta, Tab, respuesta anidada. Verde=acierto, rojo=fallo.
+  - [toggle] Forma 2: Gallery con cover
+    - [paragraph] Vista Gallery, preview = Cover. Titulo pregunta, abrir = respuesta.
+  - [toggle] Forma 3: Tema con imagen+video
+    - [paragraph] Toggle = indice del tema; dentro: mapa mental + video + links Drive.
+- [child_page] 
+  - [paragraph] Cabina de mando. Cero desorden. Abre cada toggle según la misión.
+  - [divider] 
+  - [column_list] 
+    - [column] 
+      - [heading_2] 🛡️ SISTEMAS DE DEFENSA
+      - [toggle] > Monitor de Integridad 2.0
+        - [link_to_page] 
+      - [toggle] > Log de Interferencia
+        - [link_to_page] 
+      - [toggle] > Archivo de Evolución
+        - [link_to_page] 
+      - [heading_2] ⚡ MANTENIMIENTO DE HARDWARE
+      - [toggle] > Rutina 30-30-30
+    - [column] 
+      - [heading_2] ⚔️ COMANDO CENTRAL
+      - [toggle] > Invasión Semanal
+        - [link_to_page] 
+      - [toggle] > Orden de Batalla
+        - [link_to_page] 
+      - [heading_2] 🎓 DIVISIÓN OMEGA
+      - [toggle] > Central Académica
+        - [link_to_page] 
+      - [toggle] > Pipeline Entregables
+        - [link_to_page] 
+      - [heading_2] 🦊 TALLER DE TAILS
+      - [toggle] > Proyecto C1
+        - [link_to_page] 
+      - [toggle] > Bóveda Evidencias
+        - [link_to_page] 
+      - [toggle] > Sperrkonto
+        - [link_to_page] 
+  - [child_page] 
+    - [heading_1] Replica Plantillas — Lab
+    - [callout] Estructura inspirada en Quintessential + Academic Workspace. Las vistas Gallery/Board/Calendar se agregan a mano (la API no las crea).
+    - [heading_2] Courses
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [child_database] 
+    - [heading_2] Horario Semanal (plantilla)
+    - [table] 
+      - [table_row] 
+      - [table_row] 
+      - [table_row] 
+      - [table_row] 
+      - [table_row] 
+    - [callout] Atajos: agrega aqui tus links (plataforma U, Gmail academico, Drive). Formato: /link + URL.
+    - [heading_2] Fuentes originales EGG (enlaces)
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [callout] ZONA DE PRUEBAS — Todos los datos de este laboratorio son DEMO (materias, profesores, tareas, fechas). No usar como fuente operativa hasta reconciliación formal.
+    - [heading_2] Plantillas externas (paquete completo)
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [column_list] 
+      - [column] 
+        - [paragraph] 
+      - [column] 
+        - [paragraph] 
+  - [child_page] 
+    - [heading_2] 🛡️ MANDO
+    - [callout] Núcleo Emerl + Monitor + Logística: estado del comandante.
+    - [column_list] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+    - [divider] 
+    - [heading_2] 📅 EJECUCIÓN
+    - [callout] Lo que se mueve esta semana: pipeline, recalls y tareas.
+    - [column_list] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+    - [divider] 
+    - [heading_2] 🎓 UNIVERSIDAD
+    - [callout] Operación semestral + estado por materia.
+    - [column_list] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+    - [divider] 
+    - [heading_2] 🗄 ARCHIVO + HÁBITOS
+    - [callout] Evidencia, lectura y rachas.
+    - [column_list] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+      - [column] 
+        - [link_to_page] 
+  - [child_page] 
+    - [heading_1] Sistema visual EGG-NET (aplicable)
+    - [callout] REGLA: cada grupo = H2 + callout de color + enlaces + divisor. Las columnas se hacen a mano (la API no las crea).
+    - [divider] 
+    - [heading_2] MANDO — ejemplo aplicado
+    - [callout] Estado del comandante: energia, dinero, alertas. Rojo = mando.
+    - [link_to_page] 
+    - [link_to_page] 
+    - [divider] 
+    - [heading_2] EJECUCION — ejemplo aplicado
+    - [callout] Lo que se mueve: pipeline, tareas, recalls. Azul = accion.
+    - [link_to_page] 
+    - [link_to_page] 
+    - [toggle] Ver detalle (asi se oculta lo raro)
+      - [paragraph] Contenido de uso ocasional vive dentro de toggles.
+    - [divider] 
+    - [heading_2] UNIVERSIDAD — ejemplo aplicado
+    - [callout] Materias + progreso. Amarillo = academia.
+    - [link_to_page] 
+    - [link_to_page] 
+    - [link_to_page] 
+    - [divider] 
+    - [heading_3] Paleta oficial
+    - [quote] Fondo grafito - Titulos ambar #f0b429 - Acentos EvilRed #ff3b3b - Texto #fafafa
+    - [callout] Para aplicar en EGG: replicar estos bloques por seccion + agrupar en columnas a mano. 10 minutos.
+- [child_page] 
+  - [heading_2] Welcome to the Projects Management System, your comprehensive solution for organizing and executing projects with precision and efficiency.
+  - [paragraph] 
+  - [paragraph] 
+  - [callout] Click here for access.
+Duplicate the template to your workspace. 
+    - [paragraph] 
+    - [child_page] 
+      - [paragraph] 
+      - [column_list] 
+        - [column] 
+          - [heading_1] Quick Action 
+          - [divider] 
+          - [unsupported] 
+          - [unsupported] 
+          - [unsupported] 
+          - [unsupported] 
+          - [unsupported] 
+          - [heading_1] Navigation 
+          - [divider] 
+          - [child_page] 
+            - [paragraph] 
+            - [divider] 
+            - [column_list] 
+              - [column] 
+                - [unsupported] 
+              - [column] 
+                - [unsupported] 
+              - [column] 
+                - [unsupported] 
+            - [divider] 
+            - [heading_2] Projects
+            - [child_database] 
+            - [heading_2] Timeline 
+            - [child_database] 
+            - [heading_2] Tasks
+            - [child_database] 
+            - [heading_2] Calendar 
+            - [child_database] 
+          - [child_page] 
+            - [paragraph] 
+            - [divider] 
+            - [column_list] 
+              - [column] 
+                - [unsupported] 
+              - [column] 
+                - [unsupported] 
+              - [column] 
+                - [unsupported] 
+            - [divider] 
+            - [heading_2] Resources 
+            - [child_database] 
+            - [paragraph] 
+            - [heading_2] Notes
+            - [child_database] 
+          - [child_page] 
+            - [paragraph] 
+            - [divider] 
+            - [column_list] 
+              - [column] 
+                - [unsupported] 
+              - [column] 
+                - [unsupported] 
+            - [divider] 
+            - [heading_2] Meetings
+            - [child_database] 
+          - [child_page] 
+            - [paragraph] 
+            - [paragraph] 
+            - [child_database] 
+          - [paragraph] 
+          - [heading_1] Others
+          - [divider] 
+          - [child_page] 
+            - [paragraph] 
+            - [child_page] 
+              - [child_database] 
+            - [child_page] 
+              - [child_database] 
+            - [child_page] 
+              - [child_database] 
+            - [child_page] 
+              - [child_database] 
+              - [paragraph] 
+              - [paragraph] 
+            - [child_page] 
+              - [child_database] 
+              - [paragraph] 
+              - [paragraph] 
+        - [column] 
+          - [heading_1] Tasks To-Do 
+          - [child_database] 
+          - [heading_1] Projects Timeline 
+          - [child_database] 
+      - [heading_1] Projects Manager
+      - [child_database] 
+      - [heading_1] Notes Overview 
+      - [child_database] 
+      - [heading_1] Meetings 
+      - [child_database] 
+      - [paragraph] Projects Manager v1.0 for Notion By Heysmail.co  /  YouTube  /   X
+      - [heading_1] The Most Effective Business Templates!
+      - [heading_3] Boost Your Business Efficiency with These Templates!
+      - [embed] 
+      - [paragraph] 
+  - [callout] Get the Project Management System 
+
+    - [paragraph] What makes the Pro version worth switching to?
+    - [paragraph] 
+    - [paragraph] 📥 Inbox: Capture new ideas and tasks instantly, ensuring nothing slips through the cracks.
+    - [paragraph] 📊 Projects: Organize and track project progress seamlessly, from start to finish.
+    - [paragraph] ✅ Tasks: Break down projects into manageable actions, set deadlines, and assign responsibilities effortlessly.
+    - [paragraph] 📂 Resources: Store and manage project documents, files, and references for easy access and collaboration.
+    - [paragraph] 📝 Notes: Jot down important project insights and information to keep everyone on the same page.
+    - [paragraph] 🤝 CRM Tracker: Manage client interactions and projects with ease, fostering stronger relationships and enhancing satisfaction.
+    - [paragraph] 👥 Contacts & Companies: Maintain a comprehensive database of contacts and companies for efficient communication and networking.
+    - [paragraph] 🗂️ Folders: Stay organized with customizable folders to categorize and access project elements efficiently.
+    - [paragraph] 📅 Meetings: Schedule and document project-related meetings effortlessly, ensuring everyone stays informed and aligned.
+    - [paragraph] 🚀 Next Action: Prioritize tasks and define next steps to maintain momentum and focus on high-priority activities.
+    - [paragraph] 📆 Events: Keep track of project deadlines and milestones with ease, ensuring smooth execution and delivery.
+    - [paragraph] 🗄️ Archive: Store completed project data for future reference while decluttering your workspace.
+    - [paragraph] 
+    - [paragraph] Now you can get it with extra 20% discount, just click here 🎉
+    - [paragraph] 
+    - [bookmark] 
+    - [paragraph] 
+    - [image] 
+  - [paragraph] 
+  - [divider] 
+  - [column_list] 
+    - [column] 
+      - [heading_1] I am a Creative Director & Notion Creator
+      - [paragraph] Hey, I am ISMAIL , a Notion Creator. help over 10.000+ people organized in business and life with Notion templates 📈
+      - [paragraph] 
+    - [column] 
+      - [image] 
+  - [paragraph] 
+  - [callout] Follow me on Twitter
+  - [paragraph] 
+  - [divider] 
+  - [heading_1] More Templates
+  - [paragraph] For more infos and templates check my website.
+  - [bookmark] 
+- [link_to_page] 
+- [link_to_page] 
+- [child_page] 
+  - [callout] [ ACCESO RESTRINGIDO: REPORTE DE MICRO-CUOTAS ]
+    - [table] 
+      - [table_row] 
+    - [to_do] Recarga de Batería Principal: Sueño ininterrumpido (>7.5h) + Higiene de luz nocturna.
+    - [to_do] Enfoque Láser / Dopamina: Retención de energía (NoFap) + Ayuno de distracciones sintéticas.
+    - [to_do] Combustible de Alto Octanaje: Dieta limpia, hidratación estructurada y cero comida chatarra.
+    - [to_do] Mantenimiento del Chassis: Entrenamiento de fuerza / movilidad (Hardware en óptimas condiciones).
+  - [divider] 
+  - [heading_2] 🛡️ MANDO
+  - [callout] [ NÚCLEO EMERL: BITÁCORA ESTOICA ]
+    - [quote] "Tienes poder sobre tu mente, no sobre los acontecimientos externos. Date cuenta de esto y encontrarás la fuerza”
+    - [heading_3] REFLEXIÓN DE RESILIENCIA
+    - [to_do] ¿Es esto algo que puedo controlar?
+(Si la respuesta es NO, se ignora mediante Silencio Estratégico).
+    - [to_do] Acción correctiva aplicada.(¿Qué va a hacer el "Santi 2.0" al respecto?).
+  - [divider] 
+  - [column_list] 
+    - [column] 
+      - [heading_2] Despliegue rápido
+      - [divider] 
+      - [unsupported] 
+      - [unsupported] 
+      - [unsupported] 
+      - [heading_2] EJECUCIÓN
+      - [divider] 
+      - [unsupported] 
+      - [unsupported] 
+      - [unsupported] 
+      - [heading_2] Marcha
+      - [paragraph] Fast access to every workspace: switch between tasks, projects, saved resources, and archived work easily.
+      - [divider] 
+      - [heading_2] Resources
+      - [child_database] 
+    - [column] 
+      - [child_database] 
+      - [divider] 
+      - [heading_2] 🎓 UNIVERSIDAD
+      - [divider] 
+      - [column_list] 
+        - [column] 
+          - [heading_3] Estudio
+          - [child_database] 
+          - [child_database] 
+          - [child_database] 
+          - [paragraph] 
+        - [column] 
+          - [heading_3] Sistema
+          - [child_database] 
+          - [child_database] 
+          - [child_database] 
+          - [child_database] 
+          - [child_database] 
+          - [paragraph] 
+      - [heading_2] Areas
+      - [child_database] 
+      - [paragraph] 
+  - [column_list] 
+    - [column] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+    - [column] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+    - [column] 
+      - [toggle] 📦 Sistema (uso raro)
+        - [child_page] 
+          - [heading_1] 🧪 INFORME DE LABORATORIO
+          - [heading_2] Materia: [ ] | Fecha: [ ] | Grupo: [ ]
+          - [heading_3] 1. Hipótesis
+          - [paragraph] [¿Qué se espera observar?]
+          - [heading_3] 2. Metodología
+          - [paragraph] [Procedimiento paso a paso]
+          - [heading_3] 3. Datos
+          - [paragraph] [Tabla de mediciones o código]
+          - [heading_3] 4. Conclusión
+          - [paragraph] [Análisis y aprendizaje]
+        - [child_page] 
+          - [paragraph] El sistema anterior era autocomplaciente: registraba heridas y no servia. Nuevo protocolo:
+          - [paragraph] 1. Objeto: solo distracciones y fugas (digitales, mentales, de entorno). Nada de historial emocional.
+          - [paragraph] 2. Formato por fila: Distraccion (1 linea) -> Vector/fuente -> Contramedida concreta -> Blindaje cuando se aplico.
+          - [paragraph] 3. Puerta estoica: ¿depende de mi? NO -> silencio y descarte. SI -> contramedida con fecha.
+          - [paragraph] 4. Regla de oro: fila sin contramedida = fila que no debio existir. Prohibida la lastima.
+          - [paragraph] El Log no se relee para sentir; se consulta para blindar.
+  - [child_database] 
+  - [heading_2] 🗄 ARCHIVO
+  - [child_database] 
+  - [divider] 
+  - [heading_2] Tasks
+  - [child_database] 
+  - [paragraph] 
+  - [child_page] 
+    - [paragraph] Pega aquí el Módulo Tails que encontraste (Revisión de S.O.P., Visión de Largo Alcance y requisitos de Visa).
+    - [link_to_page] 
+    - [child_page] 
+      - [bulleted_list_item] Acción: Arrastra allí todas las plantillas que descargaste de la IA de Notion.
+      - [bulleted_list_item] Extracción: Si ves una tabla de tareas o un widget de reloj, muévelo a tu página principal.
+      - [bulleted_list_item] Eliminación: Borra el resto. El Imperio no guarda chatarra.
+      - [paragraph] 
+    - [child_page] 
+      - [bulleted_list_item] Estructura: Crea una sub-página con el icono de candado.
+      - [bulleted_list_item] Contenido: Una base de datos tipo Galería (/gallery view).
+      - [bulleted_list_item] Uso: Sube capturas de pantalla de chats, audios o fotos de situaciones que intenten culparte de algo injustamente. Es tu respaldo legal y mental para cuando intenten manipular tu r
+      - [child_database] 
+  - [toggle] 🗑️ RUTINA DE APAGADO
+    - [to_do] Limpiar descargas
+    - [to_do] Revisar tareas
+    - [to_do] Cerrar pestañas innecesarias
+    - [to_do] Revisar si se hizo la auditoria ética y nocturna en Obsidian
+    - [to_do] Revisar si están actualizados los Obsidian(pc y celular)
+  - [callout] Si el Factor de Estabilidad cae por debajo del 80%, se activan:
+🔋 Restricción digital: 48 horas sin entretenimiento.
+🎯 Revisión S.O.P: Análisis de fallas obligatorio.
+🛡️ Cifrado Sh
+  - [paragraph] Plantillas del otro espacio: 9 BD revisadas, ya cubiertas por EGG-NETWORK.
+  - [numbered_list_item] Cero Suposiciones: Si una tarea no tiene fecha o plataforma asignada, pregunta.
+  - [numbered_list_item] Calidad de Entrega: Antes de marcar 'Listo', verifica normas (APA, formato, nombres)
+  - [numbered_list_item] Actualización: Si terminas tu parte, cambia estado a 'Revisión'.
+  - [child_database] 
+  - [divider] 
+  - [toggle] Abrir detalle: Quick-Add + Active Recall
+    - [paragraph] Entregable -> PIPELINE | Evidencia -> BOVEDA | Shard -> LOG | Habito -> MONITOR | Finanzas -> LOGISTICA | Flashcard -> Zettel Cards
+    - [toggle] Forma 1: Toggle oculta respuesta
+      - [paragraph] Escribe pregunta, Tab, respuesta anidada. Verde=acierto, rojo=fallo.
+    - [toggle] Forma 2: Gallery con cover
+      - [paragraph] Vista Gallery, preview = Cover. Titulo pregunta, abrir = respuesta.
+    - [toggle] Forma 3: Tema con imagen+video
+      - [paragraph] Toggle = indice del tema; dentro: mapa mental + video + links Drive.
+  - [child_page] 
+    - [paragraph] Cabina de mando. Cero desorden. Abre cada toggle según la misión.
+    - [divider] 
+    - [column_list] 
+      - [column] 
+        - [heading_2] 🛡️ SISTEMAS DE DEFENSA
+        - [toggle] > Monitor de Integridad 2.0
+          - [link_to_page] 
+        - [toggle] > Log de Interferencia
+          - [link_to_page] 
+        - [toggle] > Archivo de Evolución
+          - [link_to_page] 
+        - [heading_2] ⚡ MANTENIMIENTO DE HARDWARE
+        - [toggle] > Rutina 30-30-30
+      - [column] 
+        - [heading_2] ⚔️ COMANDO CENTRAL
+        - [toggle] > Invasión Semanal
+          - [link_to_page] 
+        - [toggle] > Orden de Batalla
+          - [link_to_page] 
+        - [heading_2] 🎓 DIVISIÓN OMEGA
+        - [toggle] > Central Académica
+          - [link_to_page] 
+        - [toggle] > Pipeline Entregables
+          - [link_to_page] 
+        - [heading_2] 🦊 TALLER DE TAILS
+        - [toggle] > Proyecto C1
+          - [link_to_page] 
+        - [toggle] > Bóveda Evidencias
+          - [link_to_page] 
+        - [toggle] > Sperrkonto
+          - [link_to_page] 
+    - [child_page] 
+      - [heading_1] Replica Plantillas — Lab
+      - [callout] Estructura inspirada en Quintessential + Academic Workspace. Las vistas Gallery/Board/Calendar se agregan a mano (la API no las crea).
+      - [heading_2] Courses
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [child_database] 
+      - [heading_2] Horario Semanal (plantilla)
+      - [table] 
+        - [table_row] 
+        - [table_row] 
+        - [table_row] 
+        - [table_row] 
+        - [table_row] 
+      - [callout] Atajos: agrega aqui tus links (plataforma U, Gmail academico, Drive). Formato: /link + URL.
+      - [heading_2] Fuentes originales EGG (enlaces)
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [callout] ZONA DE PRUEBAS — Todos los datos de este laboratorio son DEMO (materias, profesores, tareas, fechas). No usar como fuente operativa hasta reconciliación formal.
+      - [heading_2] Plantillas externas (paquete completo)
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [column_list] 
+        - [column] 
+          - [paragraph] 
+        - [column] 
+          - [paragraph] 
+    - [child_page] 
+      - [heading_2] 🛡️ MANDO
+      - [callout] Núcleo Emerl + Monitor + Logística: estado del comandante.
+      - [column_list] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+      - [divider] 
+      - [heading_2] 📅 EJECUCIÓN
+      - [callout] Lo que se mueve esta semana: pipeline, recalls y tareas.
+      - [column_list] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+      - [divider] 
+      - [heading_2] 🎓 UNIVERSIDAD
+      - [callout] Operación semestral + estado por materia.
+      - [column_list] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+      - [divider] 
+      - [heading_2] 🗄 ARCHIVO + HÁBITOS
+      - [callout] Evidencia, lectura y rachas.
+      - [column_list] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+        - [column] 
+          - [link_to_page] 
+    - [child_page] 
+      - [heading_1] Sistema visual EGG-NET (aplicable)
+      - [callout] REGLA: cada grupo = H2 + callout de color + enlaces + divisor. Las columnas se hacen a mano (la API no las crea).
+      - [divider] 
+      - [heading_2] MANDO — ejemplo aplicado
+      - [callout] Estado del comandante: energia, dinero, alertas. Rojo = mando.
+      - [link_to_page] 
+      - [link_to_page] 
+      - [divider] 
+      - [heading_2] EJECUCION — ejemplo aplicado
+      - [callout] Lo que se mueve: pipeline, tareas, recalls. Azul = accion.
+      - [link_to_page] 
+      - [link_to_page] 
+      - [toggle] Ver detalle (asi se oculta lo raro)
+        - [paragraph] Contenido de uso ocasional vive dentro de toggles.
+      - [divider] 
+      - [heading_2] UNIVERSIDAD — ejemplo aplicado
+      - [callout] Materias + progreso. Amarillo = academia.
+      - [link_to_page] 
+      - [link_to_page] 
+      - [link_to_page] 
+      - [divider] 
+      - [heading_3] Paleta oficial
+      - [quote] Fondo grafito - Titulos ambar #f0b429 - Acentos EvilRed #ff3b3b - Texto #fafafa
+      - [callout] Para aplicar en EGG: replicar estos bloques por seccion + agrupar en columnas a mano. 10 minutos.
+  - [link_to_page] 
+  - [link_to_page] 
+  - [divider] 
+  - [child_database] 
+  - [paragraph] Organize priorities by life or work areas—see what matters most across categories.
+  - [divider] 
+  - [paragraph] 
+  - [divider] 
+  - [child_database] 
+  - [child_database] 
+  - [heading_1] MEJORA E-100 — Replica Gratis
+  - [callout] Diseno Student Life OS / Productivity Vault / Finance Tracker / RPG / Life Planner, 100% nativo. Formas ya viven en sus DBs. Detalle en reporte.

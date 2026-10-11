@@ -1,0 +1,29 @@
+﻿{
+  "frames": [
+    {
+      "url": "https://chat.z.ai",
+      "title": "AutoCLAW Z.ai",
+      "width": "100%",
+      "height": "600px",
+      "enabled": true
+    },
+    {
+      "url": "https://notion.so/EGG-NETWORK",
+      "title": "THE EGG-NETWORK Dashboard",
+      "width": "100%",
+      "height": "700px",
+      "enabled": true
+    },
+    {
+      "url": "http://localhost:3000",
+      "title": "Monitor Local (Grafana)",
+      "width": "100%",
+      "height": "600px",
+      "enabled": false
+    }
+  ],
+  "settings": {
+    "allowInsecureContent": false,
+    "sandbox": "allow-scripts allow-same-origin allow-forms allow-pointer-lock"
+  }
+}

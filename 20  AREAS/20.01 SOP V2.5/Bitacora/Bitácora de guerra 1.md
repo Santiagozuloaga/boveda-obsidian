@@ -1,0 +1,1 @@
+Se reporta una perdida de datos desde el 31 de enero hasta hoy 8 de febrero reinicio de protocolos hoy

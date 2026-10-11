@@ -1,0 +1,2 @@
+# MONITOR (1 filas)
+## Hecho Hoy=SI | Estado de Sistema={'type': 'string', 'string': '🔴 PELIGRO CRÍTICO: Ejecutar PRNA'} | Cumplimiento %={'type': 'number', 'number': 0.71} | Barra Streak={'type': 'string', 'string': '████░░░'} | Fecha=2026-09-19 | Energía=None | Vector de Ataque Externo= | Estado= | Horas de Sueño=None |

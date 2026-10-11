@@ -1,0 +1,91 @@
+{
+  "useLLMProcessing": false,
+  "llmProvider": "openai",
+  "customProviders": [],
+  "openaiKey": "",
+  "openaiModel": "gpt-4o-mini",
+  "geminiKey": "",
+  "geminiModel": "gemini-2.0-flash",
+  "claudeKey": "",
+  "claudeModel": "claude-sonnet-4-20250514",
+  "prompt": "Please clean up the following YouTube video transcript. It was generated automatically from speech, so it may lack punctuation, capitalization, and paragraph breaks, and it may contain misheard words.\n\nYour task is to:\n\n1. Keep the speaker's own words and phrasing. Do NOT paraphrase, summarize, condense, or reorder anything: every sentence, point, example, and explanation must remain in your output.\n2. Add punctuation, capitalization, and paragraph breaks.\n3. Fix obvious transcription errors (misheard words, misspelled names).\n4. Remove filler words (e.g., \"um\", \"uh\") and false starts, but nothing else.\n5. Remove self-promotion, calls to action, and promotional content (e.g., \"like and subscribe\", \"check out my channel\", \"visit my website\").\n\nThe result should read like an edited transcript of what was said, not like an article about it. Return only the cleaned transcript without any additional commentary or explanation.",
+  "openaiTimeout": 1,
+  "includeVideoUrl": false,
+  "generateSummary": false,
+  "tagWithChannelName": false,
+  "includeTimestamps": true,
+  "timestampFrequency": 0,
+  "includeTimestampsInLLM": false,
+  "localVideoDirectory": "",
+  "savedDirectories": [],
+  "defaultDirectory": null,
+  "fileFormats": [
+    "markdown"
+  ],
+  "createNewFile": false,
+  "createCoverNote": false,
+  "coverNoteLocation": "",
+  "attachmentFolder": "",
+  "defaultSrtFileName": "{VideoName}",
+  "srtUseReadingSpeed": false,
+  "srtReadingSpeedWpm": 180,
+  "coverNoteTemplate": "",
+  "defaultCoverNoteName": "{VideoName}",
+  "singleLineTranscript": false,
+  "preferredLanguage": "es",
+  "forceLLMLanguage": false,
+  "defaultNoteName": "{VideoName}",
+  "checkForDuplicates": false,
+  "duplicateCheckProperty": "url",
+  "allowClipboardAccess": true,
+  "frontmatterFields": {
+    "title": {
+      "enabled": true,
+      "key": "title"
+    },
+    "url": {
+      "enabled": true,
+      "key": "url"
+    },
+    "videoId": {
+      "enabled": true,
+      "key": "videoId"
+    },
+    "channel": {
+      "enabled": true,
+      "key": "channel"
+    },
+    "channelId": {
+      "enabled": true,
+      "key": "channelId"
+    },
+    "duration": {
+      "enabled": true,
+      "key": "duration"
+    },
+    "views": {
+      "enabled": true,
+      "key": "views"
+    },
+    "published": {
+      "enabled": true,
+      "key": "published"
+    },
+    "description": {
+      "enabled": true,
+      "key": "description"
+    },
+    "isLive": {
+      "enabled": true,
+      "key": "isLive"
+    },
+    "isPrivate": {
+      "enabled": true,
+      "key": "isPrivate"
+    },
+    "isUnlisted": {
+      "enabled": true,
+      "key": "isUnlisted"
+    }
+  }
+}

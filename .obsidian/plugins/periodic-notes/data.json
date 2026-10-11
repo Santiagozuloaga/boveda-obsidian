@@ -1,0 +1,49 @@
+{
+  "installedVersion": "1.0.0-beta1",
+  "activeCalendarSet": "Default",
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "calendarSets": [
+    {
+      "day": {
+        "enabled": true,
+        "openAtStartup": true,
+        "format": "YYYY-MM-DD",
+        "templatePath": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Daily_Note.md",
+        "folder": "01_DIARIO_DE_GUERRA/01_Daily_Logs"
+      },
+      "week": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "gggg-[W]ww",
+        "templatePath": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Revision_Semanal.md",
+        "folder": "01_DIARIO_DE_GUERRA/04_Revisiones"
+      },
+      "month": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY-MM",
+        "templatePath": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Mensual.md",
+        "folder": "01_DIARIO_DE_GUERRA/04_Revisiones"
+      },
+      "quarter": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY-[Q]Q",
+        "templatePath": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/PLANTILLA_Mensual.md",
+        "folder": "01_DIARIO_DE_GUERRA/04_Revisiones"
+      },
+      "year": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY",
+        "templatePath": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Anual.md",
+        "folder": "01_DIARIO_DE_GUERRA/04_Revisiones"
+      },
+      "id": "Default",
+      "ctime": "2026-09-20T15:07:12-05:00"
+    }
+  ],
+  "enableTimelineComplication": true
+}

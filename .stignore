@@ -1,0 +1,25 @@
+// Ignorar estado de ventanas de Obsidian (no se sincronizan entre dispositivos)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
+.obsidian/workspace-mobile.json.bak
+
+// Cachés de Obsidian
+.obsidian/cache
+.obsidian/.trash
+.obsidian/plugins/*/data.json.bak
+
+// Papelera y temporales
+.trash
+.tmp
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+// Respaldos de sync conflict de workspace
+.obsidian/workspace*.json
+.obsidian/workspace-mobile*.json
+// Smart Connections: DB local por dispositivo, no sincronizar
+.smart-env

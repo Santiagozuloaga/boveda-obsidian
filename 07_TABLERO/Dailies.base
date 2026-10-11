@@ -1,0 +1,36 @@
+filters:
+  and:
+    - file.inFolder("01_DIARIO_DE_GUERRA/01_Daily_Logs")
+views:
+  - type: table
+    name: "⚡ Energía (niámoš)"
+    order:
+      - file.name
+      - energia
+      - x_ganada
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: "❌ X Ganada (semana)"
+    order:
+      - file.name
+      - x_ganada
+      - energia
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: "📅 Mes (Tracker link)"
+    filters:
+      and:
+        - file.name >= "2026-09-01"
+        - file.name <= "2026-09-30"
+    order:
+      - file.name
+      - energia
+      - x_ganada
+    sort:
+      - property: file.name
+        direction: ASC
