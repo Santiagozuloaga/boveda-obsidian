@@ -31,5 +31,23 @@ status: activo
 ## Recreativas (fuera del sistema)
 - **Google Playground / Genie** — juego casual, no herramienta de trabajo.
 
-## Stack vigente (no tocar)
-OpenClaw · Hermes · Ollama · VS Code · Obsidian · Notion · Todoist.
+## Agentes (ficha propia en esta carpeta, todos bajo freeze)
+- [[OpenCode]] — constructor principal, único con escritura en PC.
+- [[Devin]] — auditor externo + rescate.
+- [[AutoCLAW]] — auditor operativo continuo.
+- [[Qwen]] — revisor independiente.
+- [[Claude]] — auditor conceptual externo (sin escritura).
+- [[Mistral]] — auditor con conectores (sin escritura salvo orden).
+- [[SAGE-CLAW]] — runtime local (SAGE OS, Claw/Cortana, bot WhatsApp, app-claw).
+
+## Stack vigente ampliado (ni añadir ni duplicar sin orden)
+- Motores locales: OpenClaw · Hermes · Ollama + Qwen.
+- Código: VS Code · Qoder (keys propias; Quest/RepoWiki vencidos, suplir manual).
+- Productividad: Obsidian · Notion · Todoist (fronteras E-100 intactas).
+- Navegador: Chrome (titular diario; limpieza de caché interna, no desinstalar).
+
+## En revisión de peso (veredicto pendiente de Admin 2026-10-11)
+- Docker Desktop (servicio corriendo, uso sin identificar) — NO tocar hasta confirmar.
+- JetBrains PyCharm (redundante con VS Code) + IntelliJ (solo si abre app-claw).
+- Roblox Player ~5 GB (caché/versiones) — ligado a decisión del frente Roblox.
+ · Hermes · Ollama · VS Code · Obsidian · Notion · Todoist.
