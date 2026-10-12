@@ -11,3 +11,8 @@
 .DS_Store
 Thumbs.db
 *.tmp
+
+# No subir a GitHub (pesados/terceros/OS): se conservan solo en disco local
+*.zip
+desktop.ini
+11B ROMERO GONZALEZ VALERIA SOFIA.pdf
