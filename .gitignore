@@ -16,3 +16,9 @@ Thumbs.db
 *.zip
 desktop.ini
 11B ROMERO GONZALEZ VALERIA SOFIA.pdf
+
+# Backups runtime (Obsidian/agentes): locales, no versionar
+*.bak
+*.dbg
+*.presplitbackup
+*.testbackup
