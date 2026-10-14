@@ -1,6 +1,6 @@
 ---
 tags: [agente, mistral]
-status: activo
+estado: activo
 ---
 
 # Mistral — auditor con conectores (externo)

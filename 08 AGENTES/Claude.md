@@ -1,6 +1,6 @@
 ---
 tags: [agente, claude]
-status: activo
+estado: activo
 ---
 
 # Claude — auditor conceptual (externo)

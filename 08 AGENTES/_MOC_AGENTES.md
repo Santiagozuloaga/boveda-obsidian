@@ -1,6 +1,6 @@
 ---
 tags: [MOC, agentes]
-status: activo
+estado: activo
 ---
 
 # 🤖 MOC — Agentes del ecosistema

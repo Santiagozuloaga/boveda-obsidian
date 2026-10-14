@@ -1,6 +1,6 @@
 ---
 tags: [agente, qwen]
-status: activo
+estado: activo
 ---
 
 # Qwen — revisor independiente

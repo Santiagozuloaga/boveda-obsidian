@@ -1,6 +1,6 @@
 ---
 tags: [herramientas, registro, agentes]
-status: activo
+estado: activo
 ---
 
 # Registro de herramientas — estado y veredicto
