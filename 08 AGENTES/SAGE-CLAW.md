@@ -1,6 +1,6 @@
 ---
 tags: [agente, sage, claw, local]
-status: activo
+estado: activo
 ---
 
 # SAGE / CLAW — agentes locales

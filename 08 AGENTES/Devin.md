@@ -1,6 +1,6 @@
 ---
 tags: [agente, devin]
-status: activo
+estado: activo
 ---
 
 # Devin — auditor externo + rescate

@@ -1,6 +1,6 @@
 ---
 tags: [agente, opencode]
-status: activo
+estado: activo
 ---
 
 # OpenCode — constructor principal

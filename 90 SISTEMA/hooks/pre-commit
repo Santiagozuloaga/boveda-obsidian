@@ -1,0 +1,23 @@
+#!/bin/sh
+# Pre-commit E-100: bloquea zips y secretos en el repo de la bóveda.
+# Instalación en un clon nuevo: copiar a .git/hooks/pre-commit (chmod +x).
+# Copia canónica versionada: 90 SISTEMA/hooks/pre-commit (este archivo).
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+echo "$staged" | grep -qiE '\.zip$' && {
+  echo "BLOQUEADO E-100: *.zip no entra al repo (usar .gitignore + disco local)."
+  echo "$staged" | grep -iE '\.zip$'
+  exit 1
+}
+echo "$staged" | grep -qiE 'desktop\.ini$|Thumbs\.db$' && {
+  echo "BLOQUEADO E-100: basura OS no entra al repo."
+  exit 1
+}
+if echo "$staged" | grep -qE '\.(md|json|txt|py|js|ts)$'; then
+  hits=$(git diff --cached -G'ntn_[A-Za-z0-9]{8,}|sk-ant-[A-Za-z0-9_-]{8,}|ghp_[A-Za-z0-9]{8,}|xox[bpas]-[A-Za-z0-9-]{8,}' --name-only -- . ':(exclude).gitignore' | head -5)
+  if [ -n "$hits" ]; then
+    echo "BLOQUEADO E-100: posible secreto en staged:"
+    echo "$hits"
+    exit 1
+  fi
+fi
+exit 0
