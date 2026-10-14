@@ -1,7 +1,7 @@
 # 🗓️ TABLERO SEMANAL — Vista mínima
 
 > Espejo semanal regenerado por script desde Todoist + Notion. Solo lectura mental: aquí ves, allá gestionas.
-> Sincronizado: 2026-10-11 (ventana hasta 2026-10-18)
+> Sincronizado: 2026-10-14 (ventana hasta 2026-10-21)
 
 ## Todoist abiertas (11)
 - [ ] Revisar plan de estudios (primer día U) — 🎓 Universidad
@@ -17,15 +17,15 @@
 - [ ] Ingles: Preparar articulo — 🎓 Universidad
 
 ## Notion por base
-**ORDEN DE BATALLA** (4 filas, verificado 2026-10-11):
+**ORDEN DE BATALLA** (4 filas, verificado 2026-10-14):
   - Conquistas en call of war
   - Curso de apa
   - Cambio de monografia → 2026-02-04
   - Estudio para examen de A1 → 2026-02-05
-**INVASIÓN SEMANAL** (2 filas, verificado 2026-10-11):
+**INVASIÓN SEMANAL** (2 filas, verificado 2026-10-14):
   - Pre-ICFES: Pintar tablita en cartulina + repasar la otra + Lenguaje/Lit/Lec Crit
   - Monografia  → 2026-02-04
-**PIPELINE DE ENTREGABLES** (12 filas, verificado 2026-10-11):
+**PIPELINE DE ENTREGABLES** (12 filas, verificado 2026-10-14):
   - Ingles: Preparar articulo
   - Fisica: Consulta sobre la Peste Negra
   - Tecnologia: Adelantar proyecto The House
