@@ -1,7 +1,7 @@
 # 🎯 HOY — Tablero mínimo
 
 > Rincón espejo: ves tus tareas sin salir de Obsidian. No se gestiona aquí; se gestiona en Notion/Todoist.
-> Sincronizado: 2026-10-11 (script sync-tablero.py)
+> Sincronizado: 2026-10-14 (script sync-tablero.py)
 
 ## Todoist (11 abiertas)
 - [ ] Revisar plan de estudios (primer día U) — 🎓 Universidad
@@ -16,16 +16,16 @@
 - [ ] Fisica: Consulta sobre la Peste Negra — 🎓 Universidad
 - [ ] Ingles: Preparar articulo — 🎓 Universidad
 
-## Notion (fechas cercanas)
-**ORDEN DE BATALLA** (4 filas, verificado 2026-10-11):
+## Notion (fechas registradas en Notion — revisión pendiente)
+**ORDEN DE BATALLA** (4 filas, verificado 2026-10-14):
   - Conquistas en call of war
   - Curso de apa
   - Cambio de monografia → 2026-02-04
   - Estudio para examen de A1 → 2026-02-05
-**INVASIÓN SEMANAL** (2 filas, verificado 2026-10-11):
+**INVASIÓN SEMANAL** (2 filas, verificado 2026-10-14):
   - Pre-ICFES: Pintar tablita en cartulina + repasar la otra + Lenguaje/Lit/Lec Crit
   - Monografia  → 2026-02-04
-**PIPELINE DE ENTREGABLES** (12 filas, verificado 2026-10-11):
+**PIPELINE DE ENTREGABLES** (12 filas, verificado 2026-10-14):
   - Ingles: Preparar articulo
   - Fisica: Consulta sobre la Peste Negra
   - Tecnologia: Adelantar proyecto The House
