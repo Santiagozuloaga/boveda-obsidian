@@ -16,7 +16,7 @@
 - [ ] Fisica: Consulta sobre la Peste Negra — 🎓 Universidad
 - [ ] Ingles: Preparar articulo — 🎓 Universidad
 
-## Notion (fechas cercanas)
+## Notion (fechas registradas en Notion — revisión pendiente)
 **ORDEN DE BATALLA** (4 filas, verificado 2026-10-14):
   - Conquistas en call of war
   - Curso de apa

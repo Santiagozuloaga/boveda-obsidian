@@ -3,7 +3,8 @@
 Etiquetas: EN VIVO = medido hoy · EN ARCHIVOS = leído en disco · HISTÓRICO = fecha indicada · NO VERIFICADO / BLOQUEADO según misión.
 
 ## Obsidian (bóveda local `syn/Mente Maestra E-100`) — EN ARCHIVOS 14-oct
-- 464 archivos / 433 md · sin frontmatter 246 (57%) · vacíos 31 (16 Shard intencionales + 15 GEMS preservados por orden + 0 accidentales tras borrar `Daily Sin título.md`) · duplicados-nombre 47 (15 pares Shard×GEMS + resto por decidir) · links sin resolver 51 distintos (top: placeholders de plantillas `___`/vacíos/tp-tokens = ruido de template, NO defectos; reales: Derivadas×6, Cinemática×4, Álgebra×3, `_MOC_LITERATURA` — creado hoy) · huérfanas 167 (heurística).
+- 464 archivos / 433 md · sin frontmatter 246 (57%) · vacíos 30 remedidos 14-oct (15 Shard intencionales + 15 GEMS preservados por orden + 0 accidentales; corrección del "31/16" previo: recuento erróneo mío) · duplicados-nombre 47 (15 pares Shard×GEMS + resto por decidir) · links sin resolver 51 distintos (top: placeholders de plantillas `___`/vacíos/tp-tokens = ruido de template, NO defectos; reales: Derivadas×6, Cinemática×4, Álgebra×3, `_MOC_LITERATURA` — creado hoy) · huérfanas 167 (heurística).
+- Nota de alcance: estas cifras son de la BÓVEDA LOCAL, no del diff del PR (la reducción -6 arch/-3 md vs 13-oct incluye limpiezas pre-PR y actividad en vivo; el PR solo contiene sus commits).
 - Plugins: 21 activos / 23 instalados (importer, sheet-plus off) — EN ARCHIVOS.
 - Tableros HOY/SEMANAL regenerados 14-oct vía `sync-tablero.py` (detectó renombre real en Todoist) — EN VIVO (APIs).
 - Sync app APAGADA hoy (0 procesos) — último verde A–D 11-oct con V2202 = HISTÓRICO.
