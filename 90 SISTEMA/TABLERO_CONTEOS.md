@@ -8,7 +8,7 @@
 | Obsidian | archivos / notas md (14-oct) | 464 / 433 | vscan misión cierre |
 | Obsidian | plugins activos/instalados | 21 / 23 | community-plugins.json + disco |
 | Obsidian | sin frontmatter (14-oct) | 246 (57%) | vscan misión cierre |
-| Obsidian | vacíos accidentales (14-oct) | 0 (16 Shard intenc. + 15 GEMS preservados) | vscan misión cierre |
+| Obsidian | vacíos accidentales (14-oct) | 0 (15 Shard intenc. + 15 GEMS preservados; total 30 remedidos) | vscan misión cierre |
 | Obsidian | wikilinks sin resolver | ~51 destinos | AutoCLAW scan |
 | Notion | páginas / bases accesibles | 1265 / 84 | Notion API 13-oct |
 | Notion | PIPELINE / C1 / CENTRAL / ORDEN / INV | 12 / 9 / 5 / 4 / 2 | API 11-oct |

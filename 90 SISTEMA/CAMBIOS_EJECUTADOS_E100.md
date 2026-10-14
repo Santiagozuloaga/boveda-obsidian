@@ -9,5 +9,6 @@
 | `.git/hooks/pre-commit` chmod +x | Bypass anómalo 17:05 (causa probable: bit ejecutable) | sh chmod +x | bloqueo+exit 1 ×2 | reinstalar desde `90 SISTEMA/hooks/` |
 | ebb1842 (commit prueba con zip) | Hook no disparó 17:05, causa no determinada | `reset --soft HEAD~1` + unstage (rama local, sin push) | `git log` sin ebb1842; zip en ningún árbol | N/A (nunca salió del clon) |
 | `04…/_MOC_LITERATURA.md` línea MOC_FUENTES | Texto provisorio | edit (verificado existente) | ls-files | — |
+| Misión correctiva 14-oct (A/B/C) | Revisión auditor PR#4 | A: historial script = `0d92ca4` + `609777b`, diff rama = 2 líneas encabezado (registro ya correcto, validado sin cambios). B: recuento fresco 15+15+0=30; REGISTRO y TABLERO reconciliados. C: re-corridas 11/12/2/4, encabezados neutrales persisten, fecha-sync ≠ fechas-tarea | diff + recount + rerun | rama cierre-expediente (sin fusionar) |
 
 Cero escrituras en Notion/Todoist (solo lectura API). Cero cambios en staging. Nada commiteado a main (rama + PR).

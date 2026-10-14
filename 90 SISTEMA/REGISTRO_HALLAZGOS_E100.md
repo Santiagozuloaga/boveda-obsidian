@@ -3,7 +3,7 @@
 | ID | Pri | Hallazgo | Fuente/evidencia | Responsable | Acción | Estado | Prueba aceptación |
 |---|---|---|---|---|---|---|---|
 | H-01 | P0 | Hook no bloqueó commit zip 17:05 (ebb1842) | EN VIVO: `git show ebb1842` contenía test-block2.zip | OpenCode | Reset --soft+unstage (rama no pusheada); chmod +x al hook; re-prueba | CORREGIDO Y VERIFICADO | Bloqueo + exit 1 reproducido 2× post-fix |
-| H-02 | P2 | `Daily Sin título.md` vacío accidental | EN ARCHIVOS: 0 bytes | OpenCode | `git rm` | CORREGIDO Y VERIFICADO | vscan 31→30 vacíos (resta 16 Shard + 15 GEMS + 0 accid.) |
+| H-02 | P2 | `Daily Sin título.md` vacío accidental | EN ARCHIVOS: 0 bytes | OpenCode | `git rm` | CORREGIDO Y VERIFICADO | vscan 31→30 vacíos (remedido 14-oct: 15 Shard + 15 GEMS + 0 accid. = 30; método: Get-ChildItem -Recurse Length -eq 0 excluyendo .git/.obsidian/.trash/.stversions/.smart-env/.stfolder) |
 | H-03 | P2 | `_MOC_LITERATURA` inexistente (×3 refs) | EN ARCHIVOS: scan links | OpenCode | MOC mínimo con subdirs reales | CORREGIDO Y VERIFICADO | 3 refs resuelven |
 | H-04 | — | Links `___`/vacíos/tp-tokens (×45) | EN ARCHIVOS | — | Reclasificado: ruido de plantillas, NO defecto | NO DEFECTO | — |
 | H-05 | P2 | Notas Derivadas/Cinemática/Álgebra sin crear | EN ARCHIVOS | Admin (contenido) | Registrar como contenido futuro (plan STEM existe) | PENDIENTE DE DECISIÓN | — |
