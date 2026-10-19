@@ -73,7 +73,7 @@ def main():
                 "> Rincón espejo: ves tus tareas sin salir de Obsidian. No se gestiona aquí; se gestiona en Notion/Todoist.\n"
                 "> Sincronizado: " + hoy + " (script sync-tablero.py)\n\n"
                 "## Todoist (" + str(len(tasks)) + " abiertas)\n" + "\n".join(tasks) + "\n\n"
-                "## Notion (fechas cercanas)\n"
+                "## Notion (fechas registradas en Notion — revisión pendiente)\n"
                 "**ORDEN DE BATALLA** (" + str(len(orb)) + " filas, verificado " + hoy + "):\n"
                 + "".join("  - " + t + "\n" for t in orb)
                 + "**INVASIÓN SEMANAL** (" + str(len(inv)) + " filas, verificado " + hoy + "):\n"
@@ -84,7 +84,7 @@ def main():
                 "> Espejo semanal regenerado por script desde Todoist + Notion. Solo lectura mental: aquí ves, allá gestionas.\n"
                 "> Sincronizado: " + hoy + " (ventana hasta " + fin + ")\n\n"
                 "## Todoist abiertas (" + str(len(tasks)) + ")\n" + "\n".join(tasks) + "\n\n"
-                "## Notion por base\n"
+                "## Notion por base (fechas registradas — revisión pendiente)\n"
                 "**ORDEN DE BATALLA** (" + str(len(orb)) + " filas, verificado " + hoy + "):\n"
                 + "".join("  - " + t + "\n" for t in orb)
                 + "**INVASIÓN SEMANAL** (" + str(len(inv)) + " filas, verificado " + hoy + "):\n"
