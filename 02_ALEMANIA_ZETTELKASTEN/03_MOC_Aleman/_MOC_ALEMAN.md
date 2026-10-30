@@ -7,17 +7,21 @@
 ## 🧠 ESTRUCTURA
 - **Meta:** C1 (TestDaF / Goethe-Zertifikat)
 - **Enfoque:** Gramática + Vocabulario académico conectados
-Haver
+
 ## 📚 GRAMÁTICA AVANZADA
 - [[Konjunktiv II]]
 - [[Relativsätze]]
 - [[Dativ]]
+- [[Konnektoren (deshalb, trotzdem, dennoch)]]
 
 ## 🗣️ VOCABULARIO ACADÉMICO (Wortschatz)
 - **die Vorlesung** (la clase magistral)
 - **die Klausur** (el examen)
 - **forschen** (investigar)
 - **die Prüfung** (la prueba)
+
+## 🏛️ TRÁMITES DE ALEMANIA
+- [[Anmeldung — Primer trámite en Alemania]]
 
 ---
 
