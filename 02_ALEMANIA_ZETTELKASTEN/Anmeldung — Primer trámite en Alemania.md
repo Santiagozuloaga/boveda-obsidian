@@ -10,7 +10,33 @@
 
 *(La carta se corta aquí; continuar en Grok: https://grok.com/chat/34e7c5b2-4fb3-4ebd-94eb-0012bedfe50d)*
 
+## 📚 WÖRTERBUCH
+
+| Alemán | Español | Nota |
+|---|---|---|
+| die **Anmeldung** | el registro de domicilio | el trámite |
+| die **Bürgeramt** | la oficina del registro civil | dónde se hace |
+| die **Wohnung** | el apartamento | la dirección a registrar |
+| der **Mietvertrag** | el contrato de alquiler | uno de los documentos |
+| die **Immatrikulationsbescheinigung** | el certificado de matrícula | la carta de aceptación |
+| der **Hilfsantrag** | la solicitud de ayuda social | uno de los documentos |
+| die **Sozialversicherungsnummer** | el número de contribución social | lo que te asignan |
+
+## ✅ CHECKLIST DE LLEGADA
+
+- [ ] Tengo la **Immatrikulationsbescheinigung** (ya matriculado ✅)
+- [ ] Tengo **Wohnung** con contrato (**Mietvertrag**)
+- [ ] Tengo pasaporte
+- [ ] Tengo el **Hilfsantrag** listo
+- [ ] ⚠️ **Verificar** el plazo legal para registrarse tras mudarse — el texto de la guía no lo menciona
+- [ ] Voy a la **Bürgeramt** (o por correo certificado)
+- [ ] Me dan el **Meldebescheinigung** y la **Sozialversicherungsnummer**
+
+> 💡 *Ich melde **mich** an.* — el sustantivo *Anmeldung* y el verbo pronominal son la misma idea: registrarte. El MOC pide que cada término enlace con su estructura; aquí el caso lo pone el pronombre reflexivo *mich*.
+
 ## 🔗 CONEXIONES
 - Próximo trámite: Semesterticket y Blocked Account (la guía semanal continúa)
+- [[_MOC_ALEMAN]] → sección 🏛️ TRÁMITES DE ALEMANIA
+- Bloque PROYECTO C1 de Notion (8 Key Results, todos en `Pendiente`)
 
-*Importado de la Bandeja de Aprendizaje (Guía de vida universitaria en Alemania, 19-oct-2026) el 30-oct. Una sola versión: la gemela del 18-oct quedó Descartado.*
+*Importado de la Bandeja de Aprendizaje (Guía de vida universitaria en Alemania, 19-oct-2026) el 30-oct. La gemela del 18-oct se restauró a `Sin leer` el 31-oct (contenido idéntico salvo el enlace a Grok): **esta sigue siendo la versión canónica**.*
