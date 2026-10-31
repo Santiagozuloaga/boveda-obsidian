@@ -10,7 +10,7 @@ obsidianUIMode: preview
 > *Dataview + Tasks + Tracker · Solo lectura · Actualización viva · Pensar aquí, gestionar en Notion, ejecutar en Todoist*
 
 > [!info] Jump — igual que HOME
-> [[HOME|🏠 HOME]] · [[07_TABLERO/HOY|HOY]] · [[07_TABLERO/TABLERO_SEMANAL|Semana]] · [[07_TABLERO/Tubería Zettel.canvas|Tubería]] · [[01_DIARIO_DE_GUERRA/CALENDARIO_DE_VIDA|Vida]] · [[90 SISTEMA/Vaultorial_Index|Vaultorial Index]]
+> [[HOME|🏠 HOME]] · [[80 OPERATIVO/07 TABLERO/HOY|HOY]] · [[80 OPERATIVO/07 TABLERO/TABLERO_SEMANAL|Semana]] · [[80 OPERATIVO/07 TABLERO/Tubería Zettel.canvas|Tubería]] · [[20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/CALENDARIO_DE_VIDA|Vida]] · [[90 SISTEMA/Vaultorial_Index|Vaultorial Index]]
 
 ## 📊 KPIs — Hoy (niámoš 5 cards)
 
@@ -19,7 +19,7 @@ obsidianUIMode: preview
 
 | KPI | Valor (auto) | Dónde vive |
 |---|---|---|
-| **Inbox 48h** | `00_INBOX_TEMPORAL` pendiente de destilar | `[[00_INBOX_TEMPORAL/_MOC_INBOX]]` |
+| **Inbox 48h** | `00 ENTRADA (Inbox)/00_INBOX_TEMPORAL` pendiente de destilar | `[[00 ENTRADA (Inbox)/00_INBOX_TEMPORAL/_MOC_INBOX]]` |
 | **Proyectos activos** | contados abajo | `tipo: proyecto + estado: activo` |
 | **Tasks hoy** | Tasks due today | Bloque HOME 1 |
 | **Energía 14d avg** | Tracker frontmatter `energia:` | `01_DIARIO_DE_GUERRA/01_Daily_Logs` |
@@ -27,7 +27,7 @@ obsidianUIMode: preview
 
 ```dataview
 TABLE WITHOUT ID length(rows) AS "KPI"
-FROM "00_INBOX_TEMPORAL"
+FROM "00 ENTRADA (Inbox)/00_INBOX_TEMPORAL"
 GROUP BY true
 ```
 *↳ Número de notas en Inbox (debe → 0 cada noche)*
@@ -54,14 +54,14 @@ short mode
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Proyecto", estado AS "Estado", inicio AS "Inicio", stack AS "Stack", dateformat(file.mtime, "MM-dd") AS "Upd"
-FROM "03_PROGRAMACION_Y_LOGICA" OR "10.02 MONOGRAFIA"
+FROM "20 AREAS/20.01 UNIVERSIDAD/20.01.03 Programación y Lógica" OR "20 AREAS/20.01 UNIVERSIDAD/20.01.08 Monografía"
 WHERE tipo = "proyecto"
 SORT estado ASC, file.mtime DESC
 ```
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Proyecto", length(filter(file.tasks, (t) => !t.completed)) AS "Tasks abiertas"
-FROM "03_PROGRAMACION_Y_LOGICA"
+FROM "20 AREAS/20.01 UNIVERSIDAD/20.01.03 Programación y Lógica"
 WHERE tipo = "proyecto"
 SORT length(filter(file.tasks, (t) => !t.completed)) DESC
 LIMIT 7
@@ -103,7 +103,7 @@ LIMIT 14
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Día", energia AS "⚡", x_ganada AS "X", length(file.tasks) AS "#tasks"
-FROM "01_DIARIO_DE_GUERRA/01_Daily_Logs"
+FROM "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/01_Daily_Logs"
 SORT file.name DESC
 LIMIT 14
 ```
@@ -145,7 +145,7 @@ SORT length(rows) DESC
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Nota", file.folder AS "Etapa"
-FROM "00_INBOX_TEMPORAL" OR "04_LITERATURA_Y_FUENTES" OR "03_PROGRAMACION_Y_LOGICA" OR "02_ALEMANIA_ZETTELKASTEN"
+FROM "00 ENTRADA (Inbox)/00_INBOX_TEMPORAL" OR "20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes" OR "20 AREAS/20.01 UNIVERSIDAD/20.01.03 Programación y Lógica" OR "20 AREAS/20.01 UNIVERSIDAD/20.01.02 Alemán Zettelkasten"
 SORT file.mtime DESC
 LIMIT 10
 ```
