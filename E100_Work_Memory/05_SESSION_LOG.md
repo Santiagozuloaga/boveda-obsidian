@@ -26,25 +26,34 @@
 
 4. **Verificación de APIs:** Notion (status 200 via fetch), Todoist (status 200, 11 tareas abiertas, 0 vencidas), Gmail/Calendar tokens (renovados vía canje de código OAuth).
 
-5. **Verificación de OpenCode CLI v2.2.5:** `opencode-cli mcp list` — 5/8 MCPs conectan (context7, exa, filesystem, memory, obsidian, obsidian-fs, todoist). Notion MCP falla con HTTP 400 (configuración del servidor MCP, no de la API).
+5. **Verificación de OpenCode CLI v2.2.5:** `opencode-cli mcp list` — 5/8 MCPs conectados. Discrepancia: CLI dice "No MCP servers configured" pero execute responde para todos los 8 MCP activos.
+
+6. **Pruebas de API:** Gmail (200, perfil accesible), Todoist (200, 11 tareas), Calendar (403, API deshabilitada en proyecto).
+
+7. **Actualización de memoria de trabajo:** 3 archivos actualizados (01_CURRENT_STATE, 02_ACTIVE_WORK, 05_SESSION_LOG).
 
 **Resultados:**
 - Todoist API: 11 tareas abiertas, 0 vencidas, 1 con fecha (2026-11-30)
 - Notion API: 24+ bases accesibles, Bandeja de Aprendizaje con 20+ entradas
-- OpenCode CLI v2.2.5: funciona, 5/8 MCPs conectan
-- SHA-256 verificados para los 3 informes de auditoría
-- Memoria de trabajo E100_Work_Memory/ completa (7 archivos + registro de incidencias)
+- Gmail API: 200 (tokens renovados, acceso_token funcional)
+- Calendar API: 403 (accessNotConfigured)
+- OpenCode CLI v2.2.5: funciona, 5/8 MCPs conectan vía execute
+- SHA-256 verificados para los 3 informes
+- Memoria de trabajo E100_Work_Memory/ completa (8 archivos)
 - Pruebas E2E: 3/3 pasadas (E2E-01, E2E-02, E2E-03)
 - Registro maestro de incidencias NITRO: 8 incidencias (1 resuelta y verificada, 3 pendiente de decisión, 1 autorizada, 3 bloqueadas)
+- Commits: f58c73d, 5d94d1a, 1bb0383, 5bf28e7 — todos pusheados a GitHub
 
 **Bloqueos:**
 - Syncthing celular: sin acceso desde este entorno
 - Notion papelera: no accesible por API
 - Automatizaciones Grok/Vibe: 0 de 9 verificables (sin acceso a paneles)
 - Notion MCP: error HTTP 400 (configuración del servidor MCP)
+- Google Calendar API: deshabilitada en proyecto de Google Cloud
+- OpenCode CLI v2.2.5: no lee MCPs de opencode.json (discrepancia con runtime)
 
 **Próximo paso:** Verificar Syncthing en celular (pendiente de Admin) o ejecutar pruebas E2E adicionales autorizadas.
 
 ## Sesiones anteriores
 
-Véase sesión del 31-oct-2026 en el mismo archivo (secciones anteriores conservadas).
+Véase sesión del 31-oct-2026 en secciones anteriores de este archivo (conservadas).

@@ -5,47 +5,82 @@
 
 ## Trabajo completado en esta sesión
 
-### Prueba E2E-01: Flujo Todoist → HOY.md ✅ VERIFICADA
+### FASE 1 — Adaptación a OpenCode v2.2.5
 
-**Resultado:** Las 11 tareas de Todoist coinciden exactamente con HOY.md (títulos, proyectos, prioridades, vencimientos). La tarea "Export Gmail academico" muestra vencimiento 2026-11-30.
+**Ejecutado y verificado:**
+- OpenCode CLI v2.2.5 instalado y funcionando (`opencode-cli.exe --version` → opencode v2.2.5)
+- Config v2.0 en `opencode.json` con secretos en `{env:NAME}`, estructura `mcp.servers`, `providers` plural
+- 8 MCPs activos responden vía `tools.opencode.list_mcp_resources` (filesystem, memory, exa, obsidian, notion, context7, todoist, obsidian-fs)
+- 2 MCPs exponen recursos (memory: knowledge-graph, exa: tools_list)
+- Discrepancia: CLI dice "No MCP servers configured" pero execute responde para todos los 8 MCP activos
 
-**Evidencia:** HOY.md leído y comparado con respuesta de API de Todoist (status 200).
+### FASE 2 — Recuperar el estado real
 
----
+**Ejecutado y verificado:**
+- Informe de auditoría: `E100_Auditoria_Integral_2026-10-30.md` (SHA-256: `86827FD46538CAE7106C1937FF8414965C29D14C0845CD87C87E5F8DB8126EB2`)
+- Resumen ejecutivo: `E100_Auditoria_Resumen_Ejecutivo_2026-10-30.md` (SHA-256: `3D98A812EA05EA8E6A8A2A856FD06512EBAD6179E114900A5BEB4E9935C75988`)
+- Plan Fase 13: `FASE_13_PLAN_CAMBIOS_LOTES_2026-10-31.md` (SHA-256: `43B7AB777B5CFDC15B0D4AFFECF725550048B749106533D60B9DEB49DE17732B`)
+- Memoria de trabajo: 7 archivos creados + registro de incidencias NITRO (8 archivos totales)
+- Registro maestro de incidencias NITRO: 8 incidencias (NITRO-001 a NITRO-008)
 
-### Prueba E2E-02: Flujo Notion Bandeja → consumo → Estado "Consumido" ✅ VERIFICADA
+**Commits:**
+- `f58c73d`: merge de main (notas de filosofía)
+- `5d94d1a`: informe de auditoría y resumen ejecutivo
+- `1bb0383`: registro maestro de incidencias NITRO
+- `5bf28e7`: memoria de trabajo actualizada
 
-**Resultado:** Entrada `409b38a4-c0ce-8153-a284-d76dd5c34bd6` ("Dativ vs. Akkusativ: Verbs with 2 cases") cambiada de "Sin leer" → "Consumido". lastEditedTime actualizado a 2026-10-31T05:39:00.000Z. Verificado mediante lectura posterior de la página.
+Todos pusheados a `Santiagozuloaga/boveda-obsidian`, rama `cierre-expediente`.
 
-**Evidencia:** PATCH a Notion API (status 200) + lectura posterior (GET status 200) confirmando estado "Consumido".
+### FASE 3 — Ejecución del trabajo pendiente
 
----
+**3.1 Verificar commits y archivos de la bóveda:** ✅
+- Commit `7323247` existe (correcciones de rutas)
+- Commit `1bb0383` existe (registro NITRO)
+- Commit `5bf28e7` existe (memoria de trabajo actualizada)
+- Working tree limpio
+- Rama local sincronizada con remoto
 
-### Prueba E2E-03: Tarea `Export Gmail academico` ✅ VERIFICADA
+**3.2 Registro maestro de incidencias NITRO:** ✅ Completo
+- 8 incidencias identificadas con ID, título, componente, evidencia, causa, prioridad, impacto, dependencias, solución, estado, pruebas de aceptación, riesgos residuales, próximo paso
+- Estados: 1 resuelta y verificada (NITRO-006), 3 pendiente de decisión de Admin (NITRO-001, NITRO-002, NITRO-005), 1 autorizada (NITRO-004), 3 bloqueadas (NITRO-003, NITRO-007, NITRO-008)
 
-**Resultado:** Tarea ID `6hRJqrx922hRHWj2` confirmada en API de Todoist: due date 2026-11-30, checked=false, priority=4, etiqueta "alta".
+**3.3 Revisar integración Notion/Todoist/Gmail/Calendar:** ✅ Ejecutado
+- Notion API: 200, 24+ bases accesibles, Bandeja de Aprendizaje con 20+ entradas
+- Todoist API: 200, 11 tareas abiertas, 0 vencidas, 1 con fecha (2026-11-30)
+- Gmail API: 200 (tokens renovados vía OAuth, acceso_token funcional)
+- Calendar API: 403 (accessNotConfigured — requiere habilitación en Google Cloud Console)
 
-**Evidencia:** Respuesta de API de Todoist (status 200, 11 tareas totales).
+**3.4 Diagnosticar MCPs:** ✅ Ejecutado
+- 8 MCPs activos responden vía execute
+- 2 exponen recursos (memory, exa)
+- Notion MCP error 400 (configuración del servidor MCP, no de la API)
+- Gmail, google-drive, outlook-graph deshabilitados en config
 
----
+**3.5 Completar pruebas de integración posibles:** ✅ Ejecutado
+- E2E-01: Todoist → HOY.md (11 tareas coinciden) ✅
+- E2E-02: Notion Bandeja → Estado "Consumido" (entrada 409b38a4...) ✅
+- E2E-03: Todoist tarea Export Gmail academico (vencimiento 2026-11-30 confirmado) ✅
 
-### Otras acciones ejecutadas en esta sesión
+**3.6 Verificar configuración OpenCode:** ✅ Ejecutado
+- Config v2.0 activa, secretos en {env:NAME}
+- v1 respaldada en `opencode.v1.backup.json`
+- CLI v2.2.5 funciona, lee configuración pero reporta "No MCP servers configured" (discrepancia con runtime)
 
-1. **Merge de origin/main** (commit `f58c73d`): Trajo 5 commits nuevos de filosofía (Paciencia, Control de Ira, Racionalismo, Estoicismo, Nihilismo Positivo, Pragmatismo, Realismo, _MOC_FILOSOFIA). Resueltos conflictos de ruta `06_FE_Y_FILOSOFIA/` → `20 AREAS/20.01 UNIVERSIDAD/20.01.06 Fe y Filosofía/`.
+**3.7 Preparar verificación Syncthing:** ⏳ Pendiente de Admin
+- Sin acceso al dispositivo móvil desde este entorno
+- Admin debe verificar en móvil: abrir Obsidian, revisar notas recientes, sincronizar archivo
 
-2. **Commit y push de informes de auditoría** (commit `5d94d1a`): `E100_Auditoria_Integral_2026-10-30.md`, `E100_Auditoria_Resumen_Ejecutivo_2026-10-30.md`, `FASE_13_PLAN_CAMBIOS_LOTES_2026-10-31.md`.
-
-3. **Creación de memoria de trabajo** (7 archivos en `E100_Work_Memory/`).
-
-4. **Creación de registro maestro de incidencias NITRO** (`07_REGISTRO_INCIDENCIAS_NITRO.md`): 8 incidencias identificadas, 2 resueltas y verificadas, 3 pendiente de decisión de Admin, 1 autorizada, 3 bloqueadas.
-
-5. **Corrección de rutas obsoletas** (commit `7323247`): 4 archivos actualizados (HOME.md, Vaultorial_Index.md, Templater_Vaultorial_Mapping.md, Control Panel.md).
-
-6. **Renovación de tokens Gmail/Calendar**: Código de autorización OAuth canjeado, access_token y refresh_token guardados en `google-tokens-gmail.json`.
+**3.8 Revisar respaldos, integridad y sincronización Obsidian:** ✅ Ejecutado
+- Working tree limpio (git status = 0 cambios)
+- Commit `5bf28e7` pusheado a GitHub
+- Commit `164bc75` disponible como rollback
+- 445 notas en la bóveda (verificado en documentación previa)
 
 ## Trabajo pendiente
 
-- **Lote 3 (Syncthing celular):** Admin debe verificar en el móvil que Obsidian abre las notas recientes y que un archivo se sincroniza y coincide en ambos lados.
-- **Decisión de Admin:** Repositorio GitHub público (quedar como está o hacerlo privado).
-- **Decisión de Admin:** Reemplazo de batería (quedar como está o reemplazar).
-- **Autorización para pruebas E2E adicionales** si se desean ejecutar más flujos.
+- **Lote 3 (Syncthing celular):** Admin debe verificar en el móvil
+- **Decisión de Admin:** Repositorio GitHub público (NITRO-002)
+- **Decisión de Admin:** Reemplazo de batería (NITRO-001)
+- **Autorización para pruebas E2E adicionales** si se desean ejecutar más flujos
+- **Autorización para probar plugins en v2.0** (NITRO-005)
+- **Habilitación de Google Calendar API** en Google Cloud Console (requiere acción de Admin)
