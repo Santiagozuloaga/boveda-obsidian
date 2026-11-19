@@ -18,23 +18,28 @@
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "9a4ec046c5e0530d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "9c9cdc5e51eb1b62",
+            "id": "ad9a77817bcb785d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 SISTEMA/MEMORIA_COLECTIVA/Informes/MEMORIA_COLECTIVA_E100.md",
-                "mode": "preview",
+                "file": "HOME.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MEMORIA_COLECTIVA_E100"
+              "title": "HOME"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MEMORIA_COLECTIVA_E100.md",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +97,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,17 +229,17 @@
             }
           },
           {
-            "id": "b5786642d9f946f7",
+            "id": "d7aa01ba7aed53dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-10-07.md",
+                "file": "01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-10-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-07"
+              "title": "2026-10-21"
             }
           }
         ],
@@ -248,23 +252,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "notebook-navigator:Notebook Navigator": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
+      "zk-prefixer:Crear nueva nota única": false,
+      "audio-recorder:Iniciar/Detener la grabación": false,
+      "omnisearch:Omnisearch": false,
+      "notebook-navigator:Notebook Navigator": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "zk-prefixer:Crear nueva nota única": false,
       "random-note:Abrir nota al azar": false,
-      "audio-recorder:Iniciar/Detener la grabación": false,
       "workspaces:Gestionar disposiciones de espacio de trabajo": false,
       "publish:Publicar cambios...": false,
       "bases:Crear nueva base": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
       "homepage:Open homepage": false,
       "obsidian-languagetool-plugin:Check text with LanguageTool": false,
       "youtube-transcript-fetcher:YouTube transcript": false,
@@ -280,8 +283,19 @@
       "smart-connections:Toggle Footer Connections": false
     }
   },
-  "active": "9c9cdc5e51eb1b62",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-10-21.md",
+    "20 AREAS/20.01 UNIVERSIDAD/20.01.02 Alemán Zettelkasten/01_Gramatica/Dativ.md",
+    "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/migrating-claude.md",
+    "04_LITERATURA_Y_FUENTES/01_Papers_e_Investigacion/_MOC_FUENTES.md",
+    "04_LITERATURA_Y_FUENTES/01_Papers_e_Investigacion",
+    "04_LITERATURA_Y_FUENTES",
+    "90 SISTEMA/2026-10-21_SALUD_DEL_ECOSISTEMA_Y_MANTENIMIENTO.md",
+    "90 SISTEMA/2026-10-18_ARQUITECTURA_TRINIDAD_E100.md",
+    "01_DIARIO_DE_GUERRA/01_Daily_Logs",
+    "01_DIARIO_DE_GUERRA",
+    "HOME.md",
     "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/PLUGINS_ROLLBACK_LOG.md",
     "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Custom_Frames_Policy.md",
     "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Custom_Frames_Config.md",
@@ -289,10 +303,9 @@
     "90 SISTEMA/MEMORIA_COLECTIVA/Informes/INFORME_HARDENING_E100.md",
     "AGENTS.md",
     "01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-10-06.md",
-    "Sin título.md",
+    "Sin t├¡tulo.md",
     "01_DIARIO_DE_GUERRA/01_Daily_Logs/2026-10-07.md",
     "01_DIARIO_DE_GUERRA/04_Revisiones/2026-W41.md",
-    "HOME.md",
     "90 SISTEMA/90.01 TEMPLATES",
     "20  AREAS/20.01 SOP V2.5/Bitacora",
     "20  AREAS/20.01 SOP V2.5/AUDITORIAS",

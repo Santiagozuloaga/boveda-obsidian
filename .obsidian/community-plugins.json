@@ -1,1 +1,23 @@
-﻿["templater-obsidian","obsidian-custom-frames","dataview","obsidian-excel-to-markdown-table","obsidian-git","homepage","obsidian-languagetool-plugin","obsidian-zotero-desktop-connector","youtube-transcript-fetcher","obsidian-tracker","text-extractor","obsidian-style-settings","obsidian-tasks-plugin","obsidian-spaced-repetition","smart-connections","quickadd","periodic-notes","meld-encrypt","omnisearch","obsidian-local-rest-api","notebook-navigator"]
+[
+  "templater-obsidian",
+  "obsidian-custom-frames",
+  "dataview",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-git",
+  "homepage",
+  "obsidian-languagetool-plugin",
+  "obsidian-zotero-desktop-connector",
+  "youtube-transcript-fetcher",
+  "obsidian-tracker",
+  "text-extractor",
+  "obsidian-style-settings",
+  "obsidian-tasks-plugin",
+  "obsidian-spaced-repetition",
+  "smart-connections",
+  "quickadd",
+  "periodic-notes",
+  "meld-encrypt",
+  "omnisearch",
+  "obsidian-local-rest-api",
+  "notebook-navigator"
+]

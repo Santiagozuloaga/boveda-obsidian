@@ -12,9 +12,11 @@ Segundo cerebro personal (PARA V5.3): conocimiento, aprendizaje, documentación.
 5. **Fronteras**: Obsidian piensa · Notion gestiona · Todoist ejecuta. No duplicarlas aquí.
 
 ## Mapa mínimo
-- `00_INBOX_TEMPORAL/` captura · `01_DIARIO_DE_GUERRA/` dailies · `02_ALEMANIA_ZETTELKASTEN/` alemán (meta C1, nivel A1) · `03_PROGRAMACION_Y_LOGICA/` técnica · `04_LITERATURA_Y_FUENTES/` fuentes · `05_PROTOCOLOS_Y_SISTEMAS/` sistema · `06_FE_Y_FILOSOFIA/` personal · `07_TABLERO/` tableros · `10.02 MONOGRAFIA/` tesis · `90 SISTEMA/` docs y memoria.
+Taxonomía unificada el 2026-10-18: el MOC universitario ahora vive **dentro de `20 AREAS`**. Nada se borró (226 notas movidas).
+- `00 ENTRADA (Inbox)/` captura (regla 48h; 00_INBOX_TEMPORAL fusionado el 2026-10-18) · `10 PROYECTOS/` · `20 AREAS/` areas de vida · `30 RECURSOS/` · `40 ARCHIVOS X/` · `80 OPERATIVO/` estado vivo (tableros, agentes) · `90 SISTEMA/` docs y memoria.
+- Conocimiento académico en `20 AREAS/20.01 UNIVERSIDAD/`: `20.01.01 Diario de Guerra/` dailies · `20.01.02 Alemán Zettelkasten/` alemán (meta C1, nivel A1) · `20.01.03 Programación y Lógica/` técnica · `20.01.04 Literatura y Fuentes/` fuentes · `20.01.05 Protocolos y Sistemas/` sistema · `20.01.06 Fe y Filosofía/` personal · `20.01.07 Repaso STEM/` · `20.01.08 Monografía/` tesis. Índices operativos en `80 OPERATIVO/07 TABLERO/` y `80 OPERATIVO/08 AGENTES/`.
 - Canónico: `90 SISTEMA/ARQUITECTURA_SEGUNDO_CEREBRO.md` · `GUIA_RAPIDA_E100.md` · Memoria: `90 SISTEMA/MEMORIA_COLECTIVA/00_INDICE_MEMORIA.md`.
-- Frontmatter mínimo: `tipo, estado, fecha, materia` (+ dominio según plantilla). Plantillas solo vía Templater, carpeta `05/.../01_Constitucion_SOP/Plantillas/`.
+- Frontmatter mínimo: `tipo, estado, fecha, materia` (+ dominio según plantilla). Plantillas solo vía Templater, carpeta `20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/`.
 
 ## Si vas a auditar
 Lee `90 SISTEMA/MEMORIA_COLECTIVA/Informes/INFORME_HARDENING_E100.md` primero. Reporta con evidencia, no con impresiones.

@@ -1,56 +1,58 @@
 ﻿{
-  "command_timeout": 5,
-  "templates_folder": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas",
-  "templates_pairs": [
-    [
-      "",
-      ""
-    ]
-  ],
-  "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": true,
-  "enable_system_commands": false,
-  "shell_path": "",
-  "user_scripts_folder": "",
-  "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "01_DIARIO_DE_GUERRA/01_Daily_Logs",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Daily_Note.md"
-    },
-    {
-      "folder": "04_LITERATURA_Y_FUENTES/02_Resumenes",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Libro_Book_Notes.md"
-    },
-    {
-      "folder": "00_INBOX_TEMPORAL",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Apunte.md"
-    },
-    {
-      "folder": "01_DIARIO_DE_GUERRA/02_Post_Mortem_Examenes",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Post_Mortem_Examen.md"
-    },
-    {
-      "folder": "04_LITERATURA_Y_FUENTES/01_Papers_e_Investigacion",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Fuente.md"
-    },
-    {
-      "folder": "01_DIARIO_DE_GUERRA/04_Revisiones",
-      "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Revision_Semanal.md"
-    }
-  ],
-  "enable_file_templates": false,
-  "file_templates": [
-    {
-      "regex": ".*",
-      "template": ""
-    }
-  ],
-  "syntax_highlighting": true,
-  "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [],
-  "intellisense_render": 1
+    "command_timeout":  5,
+    "templates_folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas",
+    "templates_pairs":  [
+                            [
+                                "",
+                                ""
+                            ]
+                        ],
+    "trigger_on_file_creation":  true,
+    "auto_jump_to_cursor":  true,
+    "enable_system_commands":  false,
+    "shell_path":  "",
+    "user_scripts_folder":  "",
+    "enable_folder_templates":  true,
+    "folder_templates":  [
+                             {
+                                 "folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/01_Daily_Logs",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Daily_Note.md"
+                             },
+                             {
+                                 "folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/02_Resumenes",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Libro_Book_Notes.md"
+                             },
+                             {
+                                 "folder":  "00 ENTRADA (Inbox)/00_INBOX_TEMPORAL",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Apunte.md"
+                             },
+                             {
+                                 "folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/02_Post_Mortem_Examenes",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Post_Mortem_Examen.md"
+                             },
+                             {
+                                 "folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/01_Papers_e_Investigacion",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Fuente.md"
+                             },
+                             {
+                                 "folder":  "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/04_Revisiones",
+                                 "template":  "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Revision_Semanal.md"
+                             }
+                         ],
+    "enable_file_templates":  false,
+    "file_templates":  [
+                           {
+                               "regex":  ".*",
+                               "template":  ""
+                           }
+                       ],
+    "syntax_highlighting":  true,
+    "syntax_highlighting_mobile":  false,
+    "enabled_templates_hotkeys":  [
+                                      ""
+                                  ],
+    "startup_templates":  [
+
+                          ],
+    "intellisense_render":  1
 }

@@ -20,3 +20,20 @@
 11. Filtros Todoist: HECHO por captura ✅ (retirar de pendientes).
 12. Re-probes sync con móvil (cuando haya internet + app).
 13. Merge PR cierre-expediente (cuando revises).
+
+---
+
+## Añadido 2026-10-18/21 (misión de reconciliación)
+14. **Universo `3d2b`** (duplicados de CENTRAL/MONITOR/CALENDARIO/HARDWARE sueltos en la raíz): ¿fusionar o archivar? PIPELINE ya está fusionado.
+15. **Esquema de MONITOR**: crear `Dieta`, `NoFap`, `Sueño >7h`, `Cumplimiento Hábitos` en producción para igualar a staging.
+16. **"Inteligencia de Campo"**: 3 de 5 metas del MAPA apuntan a un destino que no existe en ninguna app.
+17. **Bandeja de Aprendizaje**: el Organizador sigue descartando resultados válidos (F2) y entregando prompts en vez de resultados (F1).
+18. **Prompt del Radar de Recursos**: el bloque `YA ENTREGADOS` está vacío → duplicados semanales.
+19. **Colisión 17:00**: la carta de alemán llega a la misma hora que el bloque de consumo.
+20. **Slots de Vibe**: la documentación se contradice (3 de 5 en uso vs quedan 2 libres).
+21. **AutoClaw**: la tarea de arranque necesita `RunLevel Highest` (su .exe exige admin) → requiere ejecución elevada.
+
+## Recordatorio técnico (ver `2026-10-21_SALUD_DEL_ECOSISTEMA_Y_MANTENIMIENTO.md`)
+- Los tokens de Google caducan a los **7 días** → Gmail/Drive hubo que reautorizarlos. Sin eso, Grok→Vibe→Notion no funciona.
+- Obsidian y GitHub Desktop **crashean** en este PC salvo con `--no-sandbox`. Usa los atajos del Escritorio.
+- Obsidian está fijado en **1.13.7**: la 1.14.4 falla incluso con los flags.

@@ -18,7 +18,7 @@
                   "state": {},
                   "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "Vista gráfica"
+                  "title": "Vista gr├ífica"
                 }
               }
             ]
@@ -242,15 +242,15 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "notebook-navigator:Notebook Navigator": false,
-          "switcher:Abrir selector rápido": false,
-          "graph:Abrir vista gráfica": false,
+          "switcher:Abrir selector r├ípido": false,
+          "graph:Abrir vista gr├ífica": false,
           "canvas:Crear nuevo lienzo": false,
           "daily-notes:Abrir la nota de hoy": false,
           "templates:Insertar plantilla": false,
           "command-palette:Abrir paleta de comandos": false,
-          "zk-prefixer:Crear nueva nota única": false,
+          "zk-prefixer:Crear nueva nota ├║nica": false,
           "random-note:Abrir nota al azar": false,
-          "audio-recorder:Iniciar/Detener la grabación": false,
+          "audio-recorder:Iniciar/Detener la grabaci├│n": false,
           "workspaces:Gestionar disposiciones de espacio de trabajo": false,
           "publish:Publicar cambios...": false,
           "bases:Crear nueva base": false,

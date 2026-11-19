@@ -16,12 +16,12 @@ cssclasses: [dashboard]
   "auto_jump_to_cursor": true,
   "enable_folder_templates": true,
   "folder_templates": [
-    { "folder": "01_DIARIO_DE_GUERRA/01_Daily_Logs", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Daily_Note.md" },
-    { "folder": "04_LITERATURA_Y_FUENTES/02_Resumenes", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Libro_Book_Notes.md" },
-    { "folder": "00_INBOX_TEMPORAL", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Apunte.md" },
-    { "folder": "01_DIARIO_DE_GUERRA/02_Post_Mortem_Examenes", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Post_Mortem_Examen.md" },
-    { "folder": "04_LITERATURA_Y_FUENTES/01_Papers_e_Investigacion", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Fuente.md" },
-    { "folder": "01_DIARIO_DE_GUERRA/04_Revisiones", "template": "05_PROTOCOLOS_Y_SISTEMAS/01_Constitucion_SOP/Plantillas/PLANTILLA_Revision_Semanal.md" }
+    { "folder": "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/01_Daily_Logs", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Daily_Note.md" },
+    { "folder": "20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/02_Resumenes", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Libro_Book_Notes.md" },
+    { "folder": "00 ENTRADA (Inbox)/00_INBOX_TEMPORAL", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Apunte.md" },
+    { "folder": "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/02_Post_Mortem_Examenes", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Post_Mortem_Examen.md" },
+    { "folder": "20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/01_Papers_e_Investigacion", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Fuente.md" },
+    { "folder": "20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/04_Revisiones", "template": "20 AREAS/20.01 UNIVERSIDAD/20.01.05 Protocolos y Sistemas/01_Constitucion_SOP/Plantillas/PLANTILLA_Revision_Semanal.md" }
   ]
 }
 ```
@@ -31,13 +31,13 @@ cssclasses: [dashboard]
 | Vaultorial | Plantilla E-100 | Carpeta destino |
 |---|---|---|
 | `daily-note-template` + `weekly-note-template` | `PLANTILLA_Daily_Note.md` + `PLANTILLA_Revision_Semanal.md` | `01_DIARIO_DE_GUERRA/01_Daily_Logs` + `04_Revisiones` |
-| `book-notes-template` | `PLANTILLA_Libro_Book_Notes.md` | `04_LITERATURA_Y_FUENTES/02_Resumenes` |
-| `zettelkasten-starter-vault` (Fleeting) | `PLANTILLA_Apunte.md` | `00_INBOX_TEMPORAL` |
-| `project-management-template` + `kanban-template` | `PLANTILLA_Proyecto_Software.md` | `03_PROGRAMACION_Y_LOGICA` |
-| `moc-template` | `PLANTILLA_Vocabulario_Aleman.md` | `02_ALEMANIA_ZETTELKASTEN` |
-| `student-vault` | `PLANTILLA_Post_Mortem_Examen.md` | `01_DIARIO_DE_GUERRA/02_Post_Mortem_Examenes` |
-| `cornell-notes-template` | `PLANTILLA_Fuente.md` | `04_LITERATURA_Y_FUENTES/01_Papers_e_Investigacion` |
-| `habit-tracker` + `daily-planner-template` | `PLANTILLA_Revision_Semanal.md` / `PLANTILLA_Mensual.md` | `01_DIARIO_DE_GUERRA/04_Revisiones` |
+| `book-notes-template` | `PLANTILLA_Libro_Book_Notes.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/02_Resumenes` |
+| `zettelkasten-starter-vault` (Fleeting) | `PLANTILLA_Apunte.md` | `00 ENTRADA (Inbox)/00_INBOX_TEMPORAL` |
+| `project-management-template` + `kanban-template` | `PLANTILLA_Proyecto_Software.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.03 Programación y Lógica/` |
+| `moc-template` | `PLANTILLA_Vocabulario_Aleman.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.02 Alemán Zettelkasten/` |
+| `student-vault` | `PLANTILLA_Post_Mortem_Examen.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/02_Post_Mortem_Examenes` |
+| `cornell-notes-template` | `PLANTILLA_Fuente.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.04 Literatura y Fuentes/01_Papers_e_Investigacion` |
+| `habit-tracker` + `daily-planner-template` | `PLANTILLA_Revision_Semanal.md` / `PLANTILLA_Mensual.md` | `20 AREAS/20.01 UNIVERSIDAD/20.01.01 Diario de Guerra/04_Revisiones` |
 
 *Ver índice completo 18 con links y zips en [[Vaultorial_Index|Vaultorial_Index.md]] — no se copia zip, solo referencia.*
 
